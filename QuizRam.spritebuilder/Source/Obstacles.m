@@ -28,7 +28,6 @@ static const CGFloat maximumYPositionTopPipe = maximumYPositionBottomPipe - pipe
 - (void)setupRandomPosition {
     // value between 0.f and 1.f
     int random = 100 + arc4random()% + (160-100);
-    CCLOG(@"%d",-random);
     CGFloat range = maximumYPositionTopPipe - minimumYPositionTopPipe;
     _topPipe.position = ccp(_topPipe.position.x, -random);
     _bottomPipe.position = ccp(_bottomPipe.position.x, _topPipe.position.y + pipeDistance);

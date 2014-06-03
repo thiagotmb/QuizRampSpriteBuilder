@@ -137,7 +137,7 @@
 						<key>displayName</key>
 						<string>GroundDown1</string>
 						<key>memberVarAssignmentName</key>
-						<string>_ground1</string>
+						<string>_groundDown1</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>physicsBody</key>
@@ -151,30 +151,30 @@
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
-							<real>0.0</real>
+							<real>1</real>
 							<key>dynamic</key>
 							<false/>
 							<key>elasticity</key>
-							<real>0.0</real>
+							<real>0.30000001192092896</real>
 							<key>friction</key>
-							<real>0.0</real>
+							<real>0.30000001192092896</real>
 							<key>points</key>
 							<array>
 								<array>
-									<real>0.0</real>
-									<real>0.0</real>
+									<real>-3.6279296875</real>
+									<real>336.76388549804688</real>
 								</array>
 								<array>
-									<real>168.97703552246094</real>
-									<real>3.2285845279693604</real>
+									<real>-3.1591796875</real>
+									<real>236.87673950195312</real>
 								</array>
 								<array>
-									<real>152.22756958007812</real>
-									<real>356.48236083984375</real>
+									<real>637.734375</real>
+									<real>215.14930725097656</real>
 								</array>
 								<array>
-									<real>0.0</real>
-									<real>337</real>
+									<real>637.51947021484375</real>
+									<real>341.40798950195312</real>
 								</array>
 							</array>
 						</dict>
@@ -195,7 +195,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.0</real>
+									<real>-139</real>
 									<real>0.0</real>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -220,8 +220,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.77365928888320923</real>
-									<real>0.29777887463569641</real>
+									<real>0.80000001192092896</real>
+									<real>0.44999998807907104</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -234,7 +234,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArtPack/BookStack.png</string>
+									<string>Ground/bookcase.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -251,6 +251,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -262,7 +264,7 @@
 						<key>displayName</key>
 						<string>GroundDown2</string>
 						<key>memberVarAssignmentName</key>
-						<string>_ground2</string>
+						<string>_groundDown2</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>physicsBody</key>
@@ -276,30 +278,30 @@
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
-							<real>0.0</real>
+							<real>1</real>
 							<key>dynamic</key>
 							<false/>
 							<key>elasticity</key>
-							<real>0.0</real>
+							<real>0.30000001192092896</real>
 							<key>friction</key>
-							<real>0.0</real>
+							<real>0.30000001192092896</real>
 							<key>points</key>
 							<array>
 								<array>
-									<real>0.0</real>
-									<real>0.0</real>
+									<real>-4.010009765625</real>
+									<real>340.89584350585938</real>
 								</array>
 								<array>
-									<real>175.20843505859375</real>
-									<real>2.1871445178985596</real>
+									<real>-1.617431640625</real>
+									<real>260.67013549804688</real>
 								</array>
 								<array>
-									<real>148.67898559570312</real>
-									<real>351.12371826171875</real>
+									<real>636.03399658203125</real>
+									<real>247.42361450195312</real>
 								</array>
 								<array>
-									<real>16.514280319213867</real>
-									<real>357.88357543945312</real>
+									<real>639.144287109375</real>
+									<real>337.04165649414062</real>
 								</array>
 							</array>
 						</dict>
@@ -320,8 +322,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>311.03997802734375</real>
-									<real>-2.880000114440918</real>
+									<real>477.03997802734375</real>
+									<real>0.0</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -345,8 +347,8 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>0.79256224632263184</real>
-									<real>0.29706689715385437</real>
+									<real>0.80000001192092896</real>
+									<real>0.44999998807907104</real>
 									<false/>
 									<integer>0</integer>
 								</array>
@@ -359,7 +361,7 @@
 								<key>value</key>
 								<array>
 									<string></string>
-									<string>ArtPack/BookStack.png</string>
+									<string>Ground/bookcase.png</string>
 								</array>
 							</dict>
 							<dict>
@@ -411,16 +413,24 @@
 							<key>points</key>
 							<array>
 								<array>
+									<real>-247.29206848144531</real>
+									<real>-38.151039123535156</real>
+								</array>
+								<array>
 									<real>-188.86407470703125</real>
 									<real>-287.79034423828125</real>
 								</array>
 								<array>
-									<real>39.585926055908203</real>
-									<real>-289.44033813476562</real>
+									<real>3.5414631366729736</real>
+									<real>-309.01040649414062</real>
 								</array>
 								<array>
-									<real>164.01092529296875</real>
-									<real>170.79716491699219</real>
+									<real>190.650634765625</real>
+									<real>160.546875</real>
+								</array>
+								<array>
+									<real>43.879798889160156</real>
+									<real>227.23957824707031</real>
 								</array>
 								<array>
 									<real>-119.11407470703125</real>
