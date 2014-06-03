@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frames</key>
+	<dict>
+		<key>Hero/Body.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{1, 1}, {2212, 2026}}</string>
+			<key>offset</key>
+			<string>{3, 238}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{945, 285}, {2212, 2026}}</string>
+			<key>sourceSize</key>
+			<string>{4096, 3072}</string>
+		</dict>
+		<key>Hero/Foot.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2215, 1}, {538, 370}}</string>
+			<key>offset</key>
+			<string>{-754, -1030}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1025, 2381}, {538, 370}}</string>
+			<key>sourceSize</key>
+			<string>{4096, 3072}</string>
+		</dict>
+		<key>Hero/Hand.png</key>
+		<dict>
+			<key>frame</key>
+			<string>{{2755, 1}, {492, 468}}</string>
+			<key>offset</key>
+			<string>{-1, 1}</string>
+			<key>rotated</key>
+			<false/>
+			<key>sourceColorRect</key>
+			<string>{{1801, 1301}, {492, 468}}</string>
+			<key>sourceSize</key>
+			<string>{4096, 3072}</string>
+		</dict>
+	</dict>
+	<key>metadata</key>
+	<dict>
+		<key>format</key>
+		<integer>2</integer>
+		<key>size</key>
+		<string>{4096, 4096}</string>
+		<key>textureFileName</key>
+		<string>Hero.png</string>
+	</dict>
+</dict>
+</plist>
