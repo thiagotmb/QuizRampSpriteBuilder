@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1D6D3B7E-2635-42A4-9554-99D18466F5BB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QuizRam</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E6801EE5-B487-4F01-B0E4-7199BCA86DEF</key>
+		<string>https://github.com/thiagotmb/QuizRampSpriteBuilder.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QuizRam.spritebuilder/QuizRam.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E6801EE5-B487-4F01-B0E4-7199BCA86DEF</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/thiagotmb/QuizRampSpriteBuilder.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E6801EE5-B487-4F01-B0E4-7199BCA86DEF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E6801EE5-B487-4F01-B0E4-7199BCA86DEF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QuizRampSpriteBuilder</string>
+		</dict>
+	</array>
+</dict>
+</plist>

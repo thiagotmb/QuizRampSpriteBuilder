@@ -9,6 +9,7 @@
 #import "CCNode.h"
 
 @interface Obstacles : CCNode
+@property (nonatomic) CCNode *bottomPipe;
 - (void)setupRandomPosition;
 
 @end
