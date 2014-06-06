@@ -43,6 +43,7 @@
 }
 
 
+
 /// -----------------------------------------------------------------------
 /// @name Accessing the Parallax Node Attributes
 /// -----------------------------------------------------------------------
@@ -65,4 +66,18 @@
  */
 -(void) addChild: (CCNode*)node z:(NSInteger)z parallaxRatio:(CGPoint)c positionOffset:(CGPoint)positionOffset;
 
+@end
+
+
+@interface CGPointObject : NSObject
+{
+	CGPoint	_ratio;
+	CGPoint _offset;
+	CCNode *__unsafe_unretained _child;	// weak ref
+}
+@property (nonatomic,readwrite) CGPoint ratio;
+@property (nonatomic,readwrite) CGPoint offset;
+@property (nonatomic,readwrite,unsafe_unretained) CCNode *child;
++(id) pointWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
+-(id) initWithCGPoint:(CGPoint)point offset:(CGPoint)offset;
 @end

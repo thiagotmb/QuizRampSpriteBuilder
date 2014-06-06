@@ -7,41 +7,41 @@
 		<key>Hero/Body.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1, 1}, {1105, 1012}}</string>
+			<string>{{1, 1}, {553, 507}}</string>
 			<key>offset</key>
-			<string>{1, 119}</string>
+			<string>{0, 59}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{473, 143}, {1105, 1012}}</string>
+			<string>{{236, 71}, {553, 507}}</string>
 			<key>sourceSize</key>
-			<string>{2048, 1536}</string>
+			<string>{1024, 768}</string>
 		</dict>
 		<key>Hero/Foot.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1108, 1}, {268, 184}}</string>
+			<string>{{556, 1}, {135, 93}}</string>
 			<key>offset</key>
-			<string>{-377, -515}</string>
+			<string>{-188, -257}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{513, 1191}, {268, 184}}</string>
+			<string>{{256, 595}, {135, 93}}</string>
 			<key>sourceSize</key>
-			<string>{2048, 1536}</string>
+			<string>{1024, 768}</string>
 		</dict>
 		<key>Hero/Hand.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{1378, 1}, {245, 233}}</string>
+			<string>{{693, 1}, {124, 118}}</string>
 			<key>offset</key>
 			<string>{0, 0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{901, 651}, {245, 233}}</string>
+			<string>{{450, 325}, {124, 118}}</string>
 			<key>sourceSize</key>
-			<string>{2048, 1536}</string>
+			<string>{1024, 768}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>
@@ -49,7 +49,7 @@
 		<key>format</key>
 		<integer>2</integer>
 		<key>size</key>
-		<string>{2048, 2048}</string>
+		<string>{1024, 1024}</string>
 		<key>textureFileName</key>
 		<string>Hero.png</string>
 	</dict>

@@ -17,16 +17,17 @@
 @property (nonatomic) UISwipeGestureRecognizer* swipeDownGesture;
 @property (nonatomic) CGFloat gravityY;
 @property (nonatomic) CGFloat scrollSpeed;
+@property (nonatomic) CCParallaxNode *backgroundNode;
+@property (nonatomic) CCNode *background1;
+@property (nonatomic) CCNode *background2;
+@property (nonatomic) CCNode *background3;
+@property (nonatomic) CCNode *background4;
 @property (nonatomic) CCNode* screenLimitDown;
-@property (nonatomic) CCNode* screenLimitUp;
 @property (nonatomic) CCNode* screenLimitLeft;
-@property (nonatomic) CCNode* screenLimitRight;
 @property (nonatomic) CCButton *restartButtom;
 @property (nonatomic) BOOL gameOver;
 @property (nonatomic) CCLabelTTF *timeScore;
 @property (nonatomic) unsigned int timeInGame;
-@property (nonatomic) int randomPositionY;
-@property (nonatomic) int randomPositionX;
 
 
 @property (nonatomic) CCSprite *hero;
@@ -42,9 +43,15 @@
 @property (nonatomic) CCNode* groundUp1;
 @property (nonatomic) CCNode* groundUp2;
 @property (nonatomic) NSArray *groundsUp;
+@property (nonatomic) int groundRandomPositionX;
+@property (nonatomic) int groundRandomPositionY;
+@property (nonatomic) CCNode* changedGround;
+
 
 @property (nonatomic) NSMutableArray *obstacles;
 @property (nonatomic) int distanceBetweenObstacles;
+
+@property (nonatomic) CGPoint* screenSize;
 
 
 -(void)setup;
@@ -62,11 +69,21 @@
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer;
 -(void)handleSwipeDown:(UISwipeGestureRecognizer*)recognizer;
 
+-(void)randomizeGrounds:(int)random;
+
 -(void)heroJump;
 -(void)heroRotate;
 -(void)spawnNewObstacle;
+
 -(void)gameEnds;
 -(void)restart;
+
+
+
+
+
+
+
 
 
 @end
