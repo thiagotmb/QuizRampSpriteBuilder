@@ -1645,6 +1645,44 @@
 		<string></string>
 		<key>memberVarAssignmentType</key>
 		<integer>0</integer>
+		<key>physicsBody</key>
+		<dict>
+			<key>affectedByGravity</key>
+			<true/>
+			<key>allowsRotation</key>
+			<false/>
+			<key>bodyShape</key>
+			<integer>0</integer>
+			<key>cornerRadius</key>
+			<real>0.0</real>
+			<key>density</key>
+			<real>1</real>
+			<key>dynamic</key>
+			<true/>
+			<key>elasticity</key>
+			<real>0.0</real>
+			<key>friction</key>
+			<real>0.0</real>
+			<key>points</key>
+			<array>
+				<array>
+					<real>-126.71645355224609</real>
+					<real>-149.62727355957031</real>
+				</array>
+				<array>
+					<real>253.89852905273438</real>
+					<real>-150.27932739257812</real>
+				</array>
+				<array>
+					<real>260.710693359375</real>
+					<real>79.853858947753906</real>
+				</array>
+				<array>
+					<real>-126.279052734375</real>
+					<real>81.036460876464844</real>
+				</array>
+			</array>
+		</dict>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -1718,6 +1756,8 @@
 				</array>
 			</dict>
 		</array>
+		<key>selected</key>
+		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
@@ -1727,25 +1767,11 @@
 			<key>centeredOrigin</key>
 			<false/>
 			<key>ext</key>
-			<string>phone</string>
-			<key>height</key>
-			<integer>0</integer>
-			<key>name</key>
-			<string>Phone</string>
-			<key>scale</key>
-			<real>1</real>
-			<key>width</key>
-			<integer>0</integer>
-		</dict>
-		<dict>
-			<key>centeredOrigin</key>
-			<false/>
-			<key>ext</key>
 			<string>tablet phonehd</string>
 			<key>height</key>
 			<integer>0</integer>
 			<key>name</key>
-			<string>Tablet</string>
+			<string>Fixed</string>
 			<key>scale</key>
 			<real>2</real>
 			<key>width</key>

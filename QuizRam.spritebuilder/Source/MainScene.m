@@ -10,6 +10,7 @@
 #import "Obstacles.h"
 #import "CCParallaxNode-Extras.h"
 
+
 static const CGFloat firstObstaclePosition = 560.0f;
 
 
@@ -23,9 +24,13 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
 - (void)didLoadFromCCB {
     
+    
     [self setup];
+    
 
 }
+
+
 -(void)onExit{
     NSArray *grs = [[[CCDirector sharedDirector] view] gestureRecognizers];
     
@@ -50,39 +55,10 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
 }
 
-
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown {
-    
-    if(_gravityY < 0){
-        _heroIsJumping=NO;
-        _numberOfJumps = 0;
-    }
-
-    return YES;
-}
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundUp:(CCNode *)groundDown {
-    
-    if(_gravityY > 0){
-        _heroIsJumping=NO;
-        _numberOfJumps = 0;
-    }
-
-    return YES;
-}
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenDown:(CCNode *)screenDown {
-    
-    [self gameEnds];
-
-    return YES;
-}
--(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenLeft:(CCNode *)screenLeft {
-        
-    [self gameEnds];
-    return YES;
-    
-}
-
 -(void)setup{
+    
+    [self setupGameCenter];
+    
     [self setupScene];
     
     [self setupSwipes];
@@ -100,11 +76,19 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
     
 }
+-(void)setupGameCenter{
+    _gameCenterEnabled = NO;
+    _leaderboardIdentifier = @"";
+    //Chamar o authenticateLocalPlayer
+    //EVERTON
+    [self authenticateLocalPlayer];
+    
+}
 -(void)setupScene{
     _physicsNode.debugDraw = YES;
     self.userInteractionEnabled = YES;
     _gravityY = -500;
-    _scrollSpeed = 200;
+    _scrollSpeed = 300;
     _physicsNode.gravity = ccp(0, _gravityY);
     _physicsNode.collisionDelegate = self;
     
@@ -127,7 +111,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [_backgroundNode addChild:_background1 z:0 parallaxRatio:backGround1Speed positionOffset:ccp(0,_background1.position.y)];
     [_backgroundNode addChild:_background2 z:0 parallaxRatio:backGround1Speed positionOffset:ccp(_background1.boundingBox.size.width,_background2.position.y)];
     [_backgroundNode addChild:_background3 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(0,_background3.position.y)];
-    [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround3Speed positionOffset:ccp(0,_background4.position.y)];
+    [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background4.position.y)];
     [self addChild:_backgroundNode z:-1];
 
     
@@ -153,7 +137,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 -(void)setupGrounds{
     _changedGround = _groundDown1;
-    _groundDown3.physicsBody.collisionType = @"groundDown";
+    _groundDown3.physicsBody.collisionType = @"groundDownSpecial";
 
     _groundsDown = @[_changedGround,_groundDown2];
     for (CCNode *ground in _groundsDown) {
@@ -213,7 +197,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     NSArray *objects = [NSArray arrayWithObjects:_background3,_background4, nil];
     for (CCSprite *background in objects) {
         if ([_backgroundNode convertToWorldSpace:background.position].x < -background.boundingBox.size.width) {
-            [_backgroundNode incrementOffset:ccp(2*self.boundingBox.size.width,0) forChild:background];
+            [_backgroundNode incrementOffset:ccp(2*background.boundingBox.size.width,0) forChild:background];
         }
     }
 
@@ -230,10 +214,10 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         CGPoint groundScreenPosition = [self convertToNodeSpace:groundWorldPosition];
         
         
-        const int maxYPosition = self.boundingBox.size.height/4;
-        const int minYPosition = self.boundingBox.size.height - self.boundingBox.size.height*1.1;
+        const int maxYPosition = self.boundingBox.size.height/3;
+        const int minYPosition = self.boundingBox.size.height - self.boundingBox.size.height*1;
         
-        const int maxXPosition = 250;
+        const int maxXPosition = 300;
         const int minXPosition = 0;
         
         _groundRandomPositionX = minXPosition + arc4random() % (maxXPosition - minXPosition);
@@ -247,12 +231,12 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
             if(ground == _groundDown2)
             {
                 
-                ground.position = ccp(_changedGround.position.x +  _groundRandomPositionX + self.boundingBox.size.width, _groundRandomPositionY);
+                ground.position = ccp(_changedGround.position.x +  _groundRandomPositionX + self.boundingBox.size.width, maxYPosition);
                 [self randomizeGrounds:randomLuck];
             
             }else{
                 
-                ground.position = ccp(_groundDown2.position.x + _groundRandomPositionX +  self.boundingBox.size.width, _groundRandomPositionY);
+                ground.position = ccp(_groundDown2.position.x + _groundRandomPositionX +  self.boundingBox.size.width, maxYPosition);
 
             }
             
@@ -312,6 +296,99 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
 } //TO IMPLEMENT
 
+
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown {
+    
+    if(_gravityY < 0){
+        _heroIsJumping=NO;
+        _numberOfJumps = 0;
+    }
+    
+    return YES;
+}
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundUp:(CCNode *)groundUp {
+    
+    if(_gravityY > 0){
+        _heroIsJumping=NO;
+        _numberOfJumps = 0;
+    }
+    
+    return YES;
+}
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenDown:(CCNode *)screenDown {
+    
+    [self gameEnds];
+    
+    return YES;
+}
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenLeft:(CCNode *)screenLeft {
+    
+    [self gameEnds];
+    return YES;
+    
+}
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDownSpecial:(CCNode *)groundDownSpecial {
+    
+    [_groundDown3.physicsBody setVelocity:CGPointMake(0, -500)];
+    return YES;
+    
+}
+
+
+//Autenticar o jogador
+//EVERTON
+-(void)authenticateLocalPlayer{
+    //Pega o usuario que esta jogando no GameCenter
+    GKLocalPlayer *localPlayer = [GKLocalPlayer localPlayer];
+    
+    /*
+     Parametros do bloco
+     The first one regards a view controller, which actually is the login
+     view controller that will automatically appear if the user is not already authenticated.
+     O segundo é o ponteiro de erro.
+     */
+    //EVERTON
+    localPlayer.authenticateHandler = ^(UIViewController *viewController, NSError *error){
+        /*
+         Se não for nulo o usuario nao está autenticado
+         */
+        //EVERTON
+        if (viewController != nil) {
+            [[CCDirector sharedDirector] presentViewController:viewController animated:YES completion:nil];
+        }else{
+            /*
+             Se se o jogador esta autenticado sera feita duas coias.
+             1- Para poder usar os recursos do Game Center, simplismente alterando gameCenterEnable
+             para sim.
+             2- Pegar o identificador do laederboard que foi criado anteriomente.
+             Nao foi usado direto no leaderboard ID pois o metodo loadDefaultLeaderboardIdentifierWithCompletionHandler é mais formal e correto.
+             */
+            //EVERTON
+            if ([GKLocalPlayer localPlayer].authenticated) {
+                _gameCenterEnabled=YES;
+                // Get the default leaderboard identifier.
+                [[GKLocalPlayer localPlayer] loadDefaultLeaderboardIdentifierWithCompletionHandler:^(NSString *leaderboardIdentifier,NSError *error){
+                    /*
+                     Se der erro no proximo if, sera mandado o NSError para o terminal.
+                     Se nao vamos manter o leaderboardIdentifier
+                     */
+                    if(error!=nil){
+                        NSLog(@"%@",[error localizedDescription]);
+                    }else{
+                        _leaderboardIdentifier =leaderboardIdentifier;
+                    }
+                }];
+                /*
+                 Se o usuario nao esta autenticado e a view de login é nil simplismente cancela
+                 o processo de login e desativa o gameCenterEnable
+                 */
+            }else{
+                
+                _gameCenterEnabled=NO;
+            }
+        }
+    };
+}
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer{
     
     if(_gravityY < 0)
@@ -330,7 +407,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     if(random >= 25 && random <=75){
         _changedGround = _groundDown3;
         _groundDown3.physicsBody.type = CCPhysicsBodyTypeDynamic;
-        _groundDown3.physicsBody.density = 2;
+        _groundDown3.physicsBody.density = 1;
         _groundDown3.physicsBody.affectedByGravity = NO;
         _groundDown3.physicsBody.allowsRotation = NO;
         [_groundDown3.physicsBody setVelocity:CGPointMake(0, 0)];

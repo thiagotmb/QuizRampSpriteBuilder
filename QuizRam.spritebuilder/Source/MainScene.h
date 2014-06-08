@@ -9,8 +9,13 @@
 #import "CCNode.h"
 #import <GameKit/GameKit.h>
 
-@interface MainScene : CCNode <CCPhysicsCollisionDelegate,UIGestureRecognizerDelegate>
+@interface MainScene : CCNode <CCPhysicsCollisionDelegate,UIGestureRecognizerDelegate,GKGameCenterControllerDelegate>
 
+
+// A flag indicating whether the Game Center features can be used after a user has been authenticated.
+@property (nonatomic) BOOL gameCenterEnabled;
+// This property stores the default leaderboard's identifier.
+@property (nonatomic, strong) NSString *leaderboardIdentifier;
 
 @property (nonatomic) CCPhysicsNode *physicsNode;
 @property (nonatomic) UISwipeGestureRecognizer* swipeUpGesture;
@@ -55,6 +60,7 @@
 
 
 -(void)setup;
+-(void)setupGameCenter;
 -(void)setupScene;
 -(void)setupSwipes;
 -(void)setupGrounds;
@@ -66,6 +72,14 @@
 -(void)updateGroundUp;
 -(void)updateObstacle:(CCTime)delta;
 
+
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown;
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundUp:(CCNode *)groundUp;
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenDown:(CCNode *)screenDown;
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero screenLeft:(CCNode *)screenLeft;
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDownSpecial:(CCNode *)groundDownSpecial;
+
+-(void)authenticateLocalPlayer;
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer;
 -(void)handleSwipeDown:(UISwipeGestureRecognizer*)recognizer;
 
@@ -77,8 +91,6 @@
 
 -(void)gameEnds;
 -(void)restart;
-
-
 
 
 
