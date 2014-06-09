@@ -32,15 +32,19 @@
 @property (nonatomic) CCButton *restartButtom;
 @property (nonatomic) BOOL gameOver;
 @property (nonatomic) CCLabelTTF *timeScore;
-@property (nonatomic) unsigned int timeInGame;
+@property (nonatomic) double timeInGame;
 
 
 @property (nonatomic) CCSprite *hero;
+@property (nonatomic) CCBAnimationManager* heroAnimation;
 @property (nonatomic) CGFloat jumpVelocityY;;
 @property (nonatomic) BOOL heroIsJumping;
 @property (nonatomic) int numberOfJumps;
 
 
+@property (nonatomic) CCNode* lamp2;
+@property (nonatomic) CCNode* lamp1;
+@property (nonatomic) NSArray* lamps;
 @property (nonatomic) CCNode* groundDown1;
 @property (nonatomic) CCNode* groundDown2;
 @property (nonatomic) CCNode* groundDown3;

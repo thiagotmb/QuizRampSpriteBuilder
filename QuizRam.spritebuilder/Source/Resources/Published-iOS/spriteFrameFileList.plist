@@ -10,7 +10,6 @@
 	<key>spriteFrameFiles</key>
 	<array>
 		<string>ArtPack.plist</string>
-		<string>Grounds.plist</string>
 		<string>Hero.plist</string>
 		<string>Ground.plist</string>
 	</array>
