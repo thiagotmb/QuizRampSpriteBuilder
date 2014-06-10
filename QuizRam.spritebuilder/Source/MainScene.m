@@ -21,9 +21,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
 - (void)didLoadFromCCB {
     
-    
     [self setup];
-    
 
 }
 
