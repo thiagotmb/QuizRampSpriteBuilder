@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0A4146B6193D652800A03BFE /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
-		0A511755193D057C0098B469 /* Obstacles.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A511754193D057C0098B469 /* Obstacles.m */; };
 		0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */; };
 		0A6A5C33194247E300D7999B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6A5C32194247E300D7999B /* GameKit.framework */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
@@ -58,8 +57,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A511753193D057C0098B469 /* Obstacles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Obstacles.h; path = Source/Obstacles.h; sourceTree = "<group>"; };
-		0A511754193D057C0098B469 /* Obstacles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Obstacles.m; path = Source/Obstacles.m; sourceTree = "<group>"; };
 		0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCParallaxNode-Extras.h"; path = "Source/CCParallaxNode-Extras.h"; sourceTree = "<group>"; };
 		0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCParallaxNode-Extras.m"; path = "Source/CCParallaxNode-Extras.m"; sourceTree = "<group>"; };
 		0A6A5C32194247E300D7999B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -135,8 +132,6 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
-				0A511753193D057C0098B469 /* Obstacles.h */,
-				0A511754193D057C0098B469 /* Obstacles.m */,
 				0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */,
 				0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */,
 			);
@@ -335,7 +330,6 @@
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */,
 				0A4146B6193D652800A03BFE /* MainScene.m in Sources */,
-				0A511755193D057C0098B469 /* Obstacles.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

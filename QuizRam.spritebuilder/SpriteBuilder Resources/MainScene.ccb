@@ -153,7 +153,7 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.0</real>
+									<real>670</real>
 									<real>45</real>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -241,7 +241,7 @@
 								<key>value</key>
 								<array>
 									<real>0.0</real>
-									<real>-80</real>
+									<real>-50</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -327,8 +327,8 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.0</real>
-									<real>-80</real>
+									<real>610</real>
+									<real>-50</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -354,7 +354,7 @@
 								<array>
 									<real>1.2000000476837158</real>
 									<real>1.2000000476837158</real>
-									<false/>
+									<true/>
 									<integer>0</integer>
 								</array>
 							</dict>
@@ -413,8 +413,8 @@
 							<real>0.0</real>
 							<real>0.0</real>
 							<integer>0</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -424,10 +424,10 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
-							<integer>2</integer>
-							<integer>2</integer>
+							<real>568</real>
+							<real>460.80001831054688</real>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -835,8 +835,120 @@
 								</array>
 							</dict>
 						</array>
-						<key>selected</key>
-						<true/>
+					</dict>
+					<dict>
+						<key>baseClass</key>
+						<string>CCNode</string>
+						<key>children</key>
+						<array/>
+						<key>customClass</key>
+						<string></string>
+						<key>displayName</key>
+						<string>ScreenLimitDown</string>
+						<key>memberVarAssignmentName</key>
+						<string>_screenLimitDown</string>
+						<key>memberVarAssignmentType</key>
+						<integer>1</integer>
+						<key>physicsBody</key>
+						<dict>
+							<key>affectedByGravity</key>
+							<true/>
+							<key>allowsRotation</key>
+							<true/>
+							<key>bodyShape</key>
+							<integer>0</integer>
+							<key>cornerRadius</key>
+							<real>0.0</real>
+							<key>density</key>
+							<real>1</real>
+							<key>dynamic</key>
+							<false/>
+							<key>elasticity</key>
+							<real>0.30000001192092896</real>
+							<key>friction</key>
+							<real>0.30000001192092896</real>
+							<key>points</key>
+							<array>
+								<array>
+									<real>-23.005878448486328</real>
+									<real>0.7336840033531189</real>
+								</array>
+								<array>
+									<real>-21.626016616821289</real>
+									<real>-13.543045997619629</real>
+								</array>
+								<array>
+									<real>667.42132568359375</real>
+									<real>-16.888290405273438</real>
+								</array>
+								<array>
+									<real>670.220703125</real>
+									<real>-1.9886941909790039</real>
+								</array>
+							</array>
+						</dict>
+						<key>properties</key>
+						<array>
+							<dict>
+								<key>name</key>
+								<string>name</string>
+								<key>type</key>
+								<string>StringSimple</string>
+								<key>value</key>
+								<string></string>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>position</string>
+								<key>type</key>
+								<string>Position</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>-0.10000000149011612</real>
+									<integer>0</integer>
+									<integer>0</integer>
+									<integer>2</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>contentSize</string>
+								<key>type</key>
+								<string>Size</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+									<integer>0</integer>
+									<integer>0</integer>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>anchorPoint</string>
+								<key>type</key>
+								<string>Point</string>
+								<key>value</key>
+								<array>
+									<real>0.0</real>
+									<real>0.0</real>
+								</array>
+							</dict>
+							<dict>
+								<key>name</key>
+								<string>scale</string>
+								<key>type</key>
+								<string>ScaleLock</string>
+								<key>value</key>
+								<array>
+									<real>1</real>
+									<real>1</real>
+									<false/>
+									<integer>0</integer>
+								</array>
+							</dict>
+						</array>
 					</dict>
 					<dict>
 						<key>baseClass</key>
@@ -1217,10 +1329,10 @@
 								<key>value</key>
 								<array>
 									<real>0.0</real>
-									<real>1</real>
+									<real>368</real>
 									<integer>0</integer>
 									<integer>0</integer>
-									<integer>2</integer>
+									<integer>0</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1342,10 +1454,10 @@
 								<key>value</key>
 								<array>
 									<real>680</real>
-									<real>1</real>
+									<real>368</real>
 									<integer>0</integer>
 									<integer>0</integer>
-									<integer>2</integer>
+									<integer>0</integer>
 								</array>
 							</dict>
 							<dict>
@@ -1525,15 +1637,15 @@
 					</dict>
 					<dict>
 						<key>baseClass</key>
-						<string>CCNode</string>
+						<string>CCBFile</string>
 						<key>children</key>
 						<array/>
 						<key>customClass</key>
 						<string></string>
 						<key>displayName</key>
-						<string>ScreenLimitDown</string>
+						<string>CCBFile</string>
 						<key>memberVarAssignmentName</key>
-						<string>_screenLimitDown</string>
+						<string>_bookAnswerBlue1</string>
 						<key>memberVarAssignmentType</key>
 						<integer>1</integer>
 						<key>physicsBody</key>
@@ -1557,20 +1669,20 @@
 							<key>points</key>
 							<array>
 								<array>
-									<real>-23.005878448486328</real>
-									<real>0.7336840033531189</real>
+									<real>-159.68679809570312</real>
+									<real>177.033203125</real>
 								</array>
 								<array>
-									<real>-21.626016616821289</real>
-									<real>-13.543045997619629</real>
+									<real>-116.77071380615234</real>
+									<real>-211.90057373046875</real>
 								</array>
 								<array>
-									<real>667.42132568359375</real>
-									<real>-16.888290405273438</real>
+									<real>218.30902099609375</real>
+									<real>-217.96914672851562</real>
 								</array>
 								<array>
-									<real>670.220703125</real>
-									<real>-1.9886941909790039</real>
+									<real>112.27250671386719</real>
+									<real>201.70721435546875</real>
 								</array>
 							</array>
 						</dict>
@@ -1591,35 +1703,11 @@
 								<string>Position</string>
 								<key>value</key>
 								<array>
-									<real>0.0</real>
-									<real>-0.10000000149011612</real>
+									<real>397.60000610351562</real>
+									<real>92</real>
 									<integer>0</integer>
 									<integer>0</integer>
-									<integer>2</integer>
-								</array>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>contentSize</string>
-								<key>type</key>
-								<string>Size</string>
-								<key>value</key>
-								<array>
-									<real>0.0</real>
-									<real>0.0</real>
 									<integer>0</integer>
-									<integer>0</integer>
-								</array>
-							</dict>
-							<dict>
-								<key>name</key>
-								<string>anchorPoint</string>
-								<key>type</key>
-								<string>Point</string>
-								<key>value</key>
-								<array>
-									<real>0.0</real>
-									<real>0.0</real>
 								</array>
 							</dict>
 							<dict>
@@ -1629,13 +1717,23 @@
 								<string>ScaleLock</string>
 								<key>value</key>
 								<array>
-									<real>1</real>
-									<real>1</real>
-									<false/>
+									<real>0.10000000149011612</real>
+									<real>0.10000000149011612</real>
+									<true/>
 									<integer>0</integer>
 								</array>
 							</dict>
+							<dict>
+								<key>name</key>
+								<string>ccbFile</string>
+								<key>type</key>
+								<string>CCBFile</string>
+								<key>value</key>
+								<string>Obstacles.ccb</string>
+							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -1664,10 +1762,10 @@
 						<key>value</key>
 						<array>
 							<real>284</real>
-							<real>0.5</real>
+							<real>230.40000915527344</real>
 							<integer>0</integer>
 							<integer>0</integer>
-							<integer>2</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -1678,7 +1776,7 @@
 						<key>value</key>
 						<array>
 							<real>568</real>
-							<real>384</real>
+							<real>460</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -2052,7 +2150,7 @@
 				<key>customClass</key>
 				<string></string>
 				<key>displayName</key>
-				<string>CCLabelTTF</string>
+				<string>TimeScore</string>
 				<key>memberVarAssignmentName</key>
 				<string>_timeScore</string>
 				<key>memberVarAssignmentType</key>
@@ -2074,11 +2172,11 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.10000000149011612</real>
-							<real>0.15000000596046448</real>
-							<integer>1</integer>
-							<integer>2</integer>
-							<integer>2</integer>
+							<real>120</real>
+							<real>330</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
 						</array>
 					</dict>
 					<dict>
@@ -2088,7 +2186,7 @@
 						<string>Point</string>
 						<key>value</key>
 						<array>
-							<real>0.0</real>
+							<real>0.5</real>
 							<real>0.5</real>
 						</array>
 					</dict>
@@ -2101,7 +2199,7 @@
 						<array>
 							<real>3</real>
 							<real>3</real>
-							<false/>
+							<true/>
 							<integer>0</integer>
 						</array>
 					</dict>
@@ -2112,7 +2210,7 @@
 						<string>Text</string>
 						<key>value</key>
 						<array>
-							<string>Time Score</string>
+							<string>0</string>
 							<false/>
 						</array>
 					</dict>
@@ -2122,7 +2220,7 @@
 						<key>type</key>
 						<string>FontTTF</string>
 						<key>value</key>
-						<string>Helvetica</string>
+						<string>Papyrus</string>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -2145,15 +2243,23 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>opacity</string>
+						<key>type</key>
+						<string>Float</string>
+						<key>value</key>
+						<real>0.5</real>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>color</string>
 						<key>type</key>
 						<string>Color3</string>
 						<key>value</key>
 						<array>
 							<real>0.0</real>
-							<real>1</real>
 							<real>0.0</real>
-							<real>1</real>
+							<real>0.0</real>
+							<real>0.5</real>
 						</array>
 					</dict>
 					<dict>
@@ -2262,6 +2368,93 @@
 					</dict>
 				</array>
 			</dict>
+			<dict>
+				<key>baseClass</key>
+				<string>CCSprite</string>
+				<key>children</key>
+				<array/>
+				<key>customClass</key>
+				<string></string>
+				<key>displayName</key>
+				<string>Relogio</string>
+				<key>memberVarAssignmentName</key>
+				<string></string>
+				<key>memberVarAssignmentType</key>
+				<integer>0</integer>
+				<key>properties</key>
+				<array>
+					<dict>
+						<key>name</key>
+						<string>name</string>
+						<key>type</key>
+						<string>StringSimple</string>
+						<key>value</key>
+						<string></string>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>position</string>
+						<key>type</key>
+						<string>Position</string>
+						<key>value</key>
+						<array>
+							<real>56.799999237060547</real>
+							<real>330</real>
+							<integer>0</integer>
+							<integer>0</integer>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>anchorPoint</string>
+						<key>type</key>
+						<string>Point</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.5</real>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>scale</string>
+						<key>type</key>
+						<string>ScaleLock</string>
+						<key>value</key>
+						<array>
+							<real>0.5</real>
+							<real>0.5</real>
+							<false/>
+							<integer>0</integer>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>spriteFrame</string>
+						<key>type</key>
+						<string>SpriteFrame</string>
+						<key>value</key>
+						<array>
+							<string></string>
+							<string>Background/Relogio.png</string>
+						</array>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>color</string>
+						<key>type</key>
+						<string>Color3</string>
+						<key>value</key>
+						<array>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+							<real>1</real>
+						</array>
+					</dict>
+				</array>
+			</dict>
 		</array>
 		<key>customClass</key>
 		<string>MainScene</string>
@@ -2303,7 +2496,7 @@
 				<key>value</key>
 				<array>
 					<real>568</real>
-					<real>384</real>
+					<real>460.80001831054688</real>
 					<integer>0</integer>
 					<integer>0</integer>
 				</array>

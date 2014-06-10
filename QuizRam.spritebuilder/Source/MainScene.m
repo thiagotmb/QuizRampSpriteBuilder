@@ -1,17 +1,14 @@
 //
 //  MainScene.m
-//  PROJECTNAME
+//  QuizRam
 //
-//  Created by Viktor on 10/10/13.
-//  Copyright (c) 2013 Apportable. All rights reserved.
-//
+//  Created by Thiago
+
 
 #import "MainScene.h"
-#import "Obstacles.h"
 #import "CCParallaxNode-Extras.h"
 
 
-static const CGFloat firstObstaclePosition = 560.0f;
 
 
 typedef NS_ENUM(NSInteger, DrawingOrder) {
@@ -47,7 +44,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         
     [self updateGround];
 
-    [self updateObstacle:delta];
+    [self updateObstacle];
 }
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
@@ -66,10 +63,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
     [self setupHero];
     
-    _obstacles = [NSMutableArray array];
-    [self spawnNewObstacle];
-    [self spawnNewObstacle];
-    [self spawnNewObstacle];
+    [self setupObstacle];
 
 
 
@@ -87,7 +81,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     _physicsNode.debugDraw = NO;
     self.userInteractionEnabled = YES;
     _gravityY = -500;
-    _scrollSpeed = 100;
+    _scrollSpeed = 200;
     _physicsNode.gravity = ccp(0, _gravityY);
     _physicsNode.collisionDelegate = self;
     
@@ -104,13 +98,12 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [_background2 removeFromParent];
     [_background3 removeFromParent];
     [_background4 removeFromParent];
-    CGPoint backGround1Speed = ccp(0.15, 0.15);
-    CGPoint backGround2Speed = ccp(0.2, 0.2);
-    CGPoint backGround3Speed = ccp(1, 1);
+    CGPoint backGround1Speed = ccp(0.5, 0.5);
+    CGPoint backGround2Speed = ccp(1, 1);
     [_backgroundNode addChild:_background1 z:0 parallaxRatio:backGround1Speed positionOffset:ccp(0,_background1.position.y)];
     [_backgroundNode addChild:_background2 z:0 parallaxRatio:backGround1Speed positionOffset:ccp(_background1.boundingBox.size.width,_background2.position.y)];
     [_backgroundNode addChild:_background3 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(0,_background3.position.y)];
-    [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background3.position.y)];
+    [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background4.position.y)];
     [self addChild:_backgroundNode z:-1];
 
     
@@ -159,6 +152,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 -(void)setupHero{
     _heroAnimation = _hero.userObject;
+    
     //[_heroAnimation runAnimationsForSequenceNamed:@"Run"];
     _heroIsJumping = NO;
     _hero.physicsBody.collisionType = @"hero";
@@ -168,12 +162,11 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 -(void)setupObstacle{
     
-//    for (CCNode* obstacle in _obstacles){
-//    obstacle.zOrder = DrawingOrderGround;
-//    obstacle.physicsBody.collisionType = @"groundUp";
-//    obstacle.physicsBody.sensor = NO;
-//    }
-} //TO IMPLEMENT
+        _bookAnswerBlue1.zOrder = DrawingOrderGround;
+        _bookAnswerBlue1.physicsBody.collisionType = @"obstacle";
+        _bookAnswerBlue1.physicsBody.sensor = NO;
+    
+}
 
 -(void)updateScene:(CCTime)delta{
     _hero.position = ccp(_hero.position.x + delta * _scrollSpeed, _hero.position.y);
@@ -186,9 +179,9 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
     int time = floorf(_timeInGame);
     if(time%10 == 0)
-        _scrollSpeed +=5;
-
-    _timeScore.string = [NSString stringWithFormat:@"Time Score: %.2f",_timeInGame];
+        _scrollSpeed +=3;
+    
+    _timeScore.string = [NSString stringWithFormat:@"%.2f",_timeInGame];
     
     
     //Update Parallax background
@@ -211,7 +204,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
     
 }
-
 -(void)updateGround{
     [self updateGroundDown];
     [self updateGroundUp];
@@ -240,13 +232,13 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
             if(ground == _groundDown2)
             {
                 
-                ground.position = ccp(_changedGround.position.x +  maxXPosition + self.boundingBox.size.width,_groundRandomPositionY);
+                ground.position = ccp(_changedGround.position.x +  _groundRandomPositionX + self.boundingBox.size.width,_groundRandomPositionY);
                 
                 [self randomizeGrounds:randomLuck];
             
             }else{
                 
-                ground.position = ccp(_groundDown2.position.x + maxXPosition +  self.boundingBox.size.width, _groundRandomPositionY);
+                ground.position = ccp(_groundDown2.position.x + _groundRandomPositionX +  self.boundingBox.size.width, _groundRandomPositionY);
 
             }
             
@@ -277,48 +269,29 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         if (groundScreenPosition.x <= (-ground.boundingBox.size.width)){
             
             ground.position = ccp(ground.position.x + 2.2*self.boundingBox.size.width , ground.position.y);
-            
         }
     }
 
 }
+-(void)updateObstacle{
 
--(void)updateObstacle:(CCTime)delta{
-    //Obstacle
-
-//        NSMutableArray *offScreenObstacles = nil;
-//        for (CCNode *obstacle in _obstacles) {
-//
-//            NSLog(@"%@",obstacle.physicsBody.collisionType);
-//
-//            obstacle.position = ccp(obstacle.position.x - ( _scrollSpeed * delta ), obstacle.position.y);
-//            CGPoint obstacleWorldPosition = [_physicsNode convertToWorldSpace:obstacle.position];
-//            CGPoint obstacleScreenPosition = [self convertToNodeSpace:obstacleWorldPosition];
-//
-//            if (obstacleScreenPosition.x < -2.2*obstacle.contentSize.width) {
-//                //CCLOG(@"%f",obstacle.position.x);
-//
-//                if (!offScreenObstacles) {
-//                    
-//                    offScreenObstacles = [NSMutableArray array];
-//                }
-//                [offScreenObstacles addObject:obstacle];
-//            }
-//        }
-//
-//        for (CCNode *obstacleToRemove in offScreenObstacles) {
-//                [obstacleToRemove removeFromParent];
-//                [_obstacles removeObject:obstacleToRemove];
-//                [self spawnNewObstacle];
-//
-//            }
-
-            // for each removed obstacle, add a new one
-            // remove the object after spawning a new one, since if there is only one object this logic will not work
     
         
+        CGPoint bookWolrdPosition = [_physicsNode convertToWorldSpace:_bookAnswerBlue1.position];
+        CGPoint bookScreenPosition = [self convertToNodeSpace:bookWolrdPosition];
+        
+        // if the left corner is one complete width off the screen, move it to the right
+        if (bookScreenPosition.x <= (-self.boundingBox.size.width)){
+            NSLog(@"2ok");
+            int random = 100 + arc4random() % (200 - 100);
+            if(random == 150){
+                CCNode *oi =  [_groundsDown objectAtIndex:1];
+                _bookAnswerBlue1.position = ccp(oi.position.x+100, oi.position.y  + 30);
+            }
+        }
+        
 
-} //TO IMPLEMENT
+}
 
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown {
@@ -458,7 +431,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         _groundsDown = @[_changedGround,_groundDown2];
     }
 }
-
 -(void)heroJump{
     
     if (_numberOfJumps < 2) {
@@ -467,6 +439,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
     if (!_heroIsJumping && _numberOfJumps <= 2) {
         _heroIsJumping = YES;
+        
         [_heroAnimation runAnimationsForSequenceNamed:@"Jump"];
         [_hero.physicsBody setVelocity:CGPointMake(0,_jumpVelocityY)];
         _numberOfJumps++;
@@ -485,22 +458,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 - (void)spawnNewObstacle {
     
-//    CCNode *previousObstacle = [_obstacles lastObject];
-//    CGFloat previousObstacleXPosition = previousObstacle.position.x;
-//    
-//    if (!previousObstacle) {
-//        previousObstacleXPosition = firstObstaclePosition;
-//    }
-//
-//    _obstacle = [CCBReader load:@"Obstacles"];
-//    _obstacle.physicsBody.collisionType = @"obstacle";
-//    _obstacle.physicsBody.sensor = YES;
-//    _distanceBetweenObstacles = 700;
-//    _obstacle.position = ccp(previousObstacleXPosition + _distanceBetweenObstacles, 0);
-//    [_physicsNode addChild:_obstacle];
-//    [_obstacles addObject:_obstacle];
-} // TO IMPLEMENT
 
+}
 -(void)restart{
     CCScene *scene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:scene];
@@ -525,7 +484,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         
     }
 }
-
 -(void)reportScore{
     /*
      Inicializa o GKScore, especificando no init o identificador do Leaderboard que foi

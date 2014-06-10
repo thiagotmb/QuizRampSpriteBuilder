@@ -1,10 +1,10 @@
 //
 //  CCParallaxNode-Extras.h
-//  SpaceGame
+//  QuizRam
 //
-//  Created by Ray Wenderlich on 5/14/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
-//
+//  Created by Thiago
+
+
 
 #import "cocos2d.h"
 

@@ -1,10 +1,10 @@
 //
 //  MainScene.h
-//  PROJECTNAME
+//  QuizRam
 //
-//  Created by Viktor on 10/10/13.
-//  Copyright (c) 2013 Apportable. All rights reserved.
-//
+//  Created by Thiago
+
+
 
 #import "CCNode.h"
 #import <GameKit/GameKit.h>
@@ -37,6 +37,7 @@
 
 @property (nonatomic) CCSprite *hero;
 @property (nonatomic) CCBAnimationManager* heroAnimation;
+@property (nonatomic) CCParticleBatchNode *runSmoke;
 @property (nonatomic) CGFloat jumpVelocityY;;
 @property (nonatomic) BOOL heroIsJumping;
 @property (nonatomic) int numberOfJumps;
@@ -57,11 +58,8 @@
 @property (nonatomic) CCNode* changedGround;
 
 
-@property (nonatomic) NSMutableArray *obstacles;
+@property (nonatomic) CCNode* bookAnswerBlue1;
 @property (nonatomic) int distanceBetweenObstacles;
-
-@property (nonatomic) CGPoint* screenSize;
-
 
 -(void)setup;
 -(void)setupGameCenter;
@@ -74,7 +72,7 @@
 -(void)updateGround;
 -(void)updateGroundDown;
 -(void)updateGroundUp;
--(void)updateObstacle:(CCTime)delta;
+-(void)updateObstacle;
 
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown;

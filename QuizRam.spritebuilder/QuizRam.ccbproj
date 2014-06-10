@@ -88,29 +88,22 @@
 			<key>previewFolderHidden</key>
 			<true/>
 		</dict>
-		<key>ArtPack</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
 		<key>ArtPack/background_library.png</key>
+		<dict/>
+		<key>Background</key>
 		<dict/>
 		<key>Background.ccbi</key>
 		<dict/>
 		<key>Ground</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
-		<key>Grounds</key>
-		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
-		</dict>
+		<dict/>
 		<key>Hero</key>
+		<dict/>
+		<key>Obstacles</key>
+		<dict/>
+		<key>Obstacles/BlueBookAnswer.png</key>
 		<dict>
-			<key>isSmartSpriteSheet</key>
-			<true/>
+			<key>scaleFrom</key>
+			<integer>4</integer>
 		</dict>
 		<key>Sprites</key>
 		<dict/>
