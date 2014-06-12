@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0A4146B6193D652800A03BFE /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
+		0A5F3FFE19489012002F39AA /* Questoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F3FFD19489012002F39AA /* Questoes.plist */; };
+		0A5F40021948C41E002F39AA /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F40011948C41E002F39AA /* GameData.m */; };
 		0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */; };
 		0A6A5C33194247E300D7999B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6A5C32194247E300D7999B /* GameKit.framework */; };
+		0A8698011947D0E90054181F /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8698001947D0E90054181F /* MenuScene.m */; };
+		0A8698051947EBE30054181F /* QuizScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8698041947EBE30054181F /* QuizScene.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -57,9 +61,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A5F3FFD19489012002F39AA /* Questoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Questoes.plist; path = Source/Questoes.plist; sourceTree = "<group>"; };
+		0A5F40001948C41E002F39AA /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameData.h; path = Source/GameData.h; sourceTree = "<group>"; };
+		0A5F40011948C41E002F39AA /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameData.m; path = Source/GameData.m; sourceTree = "<group>"; };
 		0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCParallaxNode-Extras.h"; path = "Source/CCParallaxNode-Extras.h"; sourceTree = "<group>"; };
 		0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCParallaxNode-Extras.m"; path = "Source/CCParallaxNode-Extras.m"; sourceTree = "<group>"; };
 		0A6A5C32194247E300D7999B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		0A8697FF1947D0E90054181F /* MenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MenuScene.h; path = Source/MenuScene.h; sourceTree = "<group>"; };
+		0A8698001947D0E90054181F /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuScene.m; path = Source/MenuScene.m; sourceTree = "<group>"; };
+		0A8698031947EBE30054181F /* QuizScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizScene.h; path = Source/QuizScene.h; sourceTree = "<group>"; };
+		0A8698041947EBE30054181F /* QuizScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizScene.m; path = Source/QuizScene.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -128,12 +139,19 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				0A5F3FFD19489012002F39AA /* Questoes.plist */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
+				0A8697FF1947D0E90054181F /* MenuScene.h */,
+				0A8698001947D0E90054181F /* MenuScene.m */,
+				0A5F40001948C41E002F39AA /* GameData.h */,
+				0A5F40011948C41E002F39AA /* GameData.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */,
 				0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */,
+				0A8698031947EBE30054181F /* QuizScene.h */,
+				0A8698041947EBE30054181F /* QuizScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -304,6 +322,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
+				0A5F3FFE19489012002F39AA /* Questoes.plist in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
@@ -329,9 +348,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
+				0A8698011947D0E90054181F /* MenuScene.m in Sources */,
 				0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */,
 				0A4146B6193D652800A03BFE /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				0A5F40021948C41E002F39AA /* GameData.m in Sources */,
+				0A8698051947EBE30054181F /* QuizScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,7 +394,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -403,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -429,7 +451,7 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/QuizRam-edbejyawdrqpfuafzfiivdsrhuzq/Build/Products/Debug-iphoneos",
@@ -466,7 +488,7 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/QuizRam-edbejyawdrqpfuafzfiivdsrhuzq/Build/Products/Debug-iphoneos",

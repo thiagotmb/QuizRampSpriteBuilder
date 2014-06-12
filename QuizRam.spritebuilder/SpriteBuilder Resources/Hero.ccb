@@ -281,7 +281,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>-50</real>
+						<real>50</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -795,7 +795,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>100</real>
+						<real>0.0</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1146,8 +1146,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>110</real>
-							<real>5.1840004920959473</real>
+							<real>20</real>
+							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1545,8 +1545,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>-40</real>
-							<real>3.4560003280639648</real>
+							<real>60</real>
+							<real>25</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1584,7 +1584,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>0.0</real>
+						<real>5</real>
 					</dict>
 					<dict>
 						<key>baseValue</key>
@@ -1637,44 +1637,6 @@
 		<string></string>
 		<key>memberVarAssignmentType</key>
 		<integer>0</integer>
-		<key>physicsBody</key>
-		<dict>
-			<key>affectedByGravity</key>
-			<true/>
-			<key>allowsRotation</key>
-			<false/>
-			<key>bodyShape</key>
-			<integer>0</integer>
-			<key>cornerRadius</key>
-			<real>0.0</real>
-			<key>density</key>
-			<real>1</real>
-			<key>dynamic</key>
-			<true/>
-			<key>elasticity</key>
-			<real>0.0</real>
-			<key>friction</key>
-			<real>0.0</real>
-			<key>points</key>
-			<array>
-				<array>
-					<real>-311.67794799804688</real>
-					<real>74.725883483886719</real>
-				</array>
-				<array>
-					<real>-310.42578125</real>
-					<real>-151.14938354492188</real>
-				</array>
-				<array>
-					<real>186.26622009277344</real>
-					<real>-150.84901428222656</real>
-				</array>
-				<array>
-					<real>186.792724609375</real>
-					<real>74.496383666992188</real>
-				</array>
-			</array>
-		</dict>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -1706,8 +1668,8 @@
 				<string>Point</string>
 				<key>value</key>
 				<array>
-					<real>0.5</real>
-					<real>0.5</real>
+					<real>0.0</real>
+					<real>0.0</real>
 				</array>
 			</dict>
 			<dict>
@@ -1789,7 +1751,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.0</real>
+			<real>0.066666670143604279</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>

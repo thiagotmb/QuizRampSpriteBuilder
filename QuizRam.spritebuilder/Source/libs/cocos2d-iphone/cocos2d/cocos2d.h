@@ -161,7 +161,6 @@
 #import "kazmath/GL/matrix.h"
 
 
-
 #ifdef __cplusplus
 extern "C" {
 #endif

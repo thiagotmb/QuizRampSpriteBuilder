@@ -22,7 +22,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 - (void)didLoadFromCCB {
     
     [self setup];
-
+    
+    
 }
 
 
@@ -35,6 +36,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         }
     }
 }
+
 - (void)update:(CCTime)delta {
     
 
@@ -42,7 +44,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         
     [self updateGround];
 
-    [self updateObstacle];
+    [self updateAnswerBook];
+
 }
 - (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
@@ -60,11 +63,9 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [self setupGrounds];
     
     [self setupHero];
+
+    [self setupAnswerBook];
     
-    [self setupObstacle];
-
-
-
     
 }
 -(void)setupGameCenter{
@@ -76,12 +77,14 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
 }
 -(void)setupScene{
+    _physicsNode.collisionDelegate = self;
     _physicsNode.debugDraw = NO;
+    _physicsNode.iterations = 100;
+    
     self.userInteractionEnabled = YES;
     _gravityY = -500;
     _scrollSpeed = 200;
     _physicsNode.gravity = ccp(0, _gravityY);
-    _physicsNode.collisionDelegate = self;
     
     _screenLimitDown.physicsBody.sensor = YES;
     _screenLimitDown.physicsBody.collisionType = @"screenDown";
@@ -89,7 +92,9 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     _screenLimitLeft.physicsBody.collisionType = @"screenLeft";
     
     _timeInGame = 0;
-    
+    _capturedBooks = 0;
+    _gravityTimer = 1;
+
     //Setup Parallax Background
     _backgroundNode = [CCParallaxNode node];
     [_background1 removeFromParent];
@@ -103,6 +108,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [_backgroundNode addChild:_background3 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(0,_background3.position.y)];
     [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background4.position.y)];
     [self addChild:_backgroundNode z:-1];
+    
+    _gameTimeCount = [NSTimer scheduledTimerWithTimeInterval:0.001 target:self selector:@selector(countTimeinGame:) userInfo:nil repeats:YES];
 
     
 }
@@ -112,7 +119,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [[UISwipeGestureRecognizer alloc]
      initWithTarget:self
      action:@selector(handleSwipeUp:)];
-    [swipeUpRecognizer setDirection:UISwipeGestureRecognizerDirectionUp]; // seconds
+    [swipeUpRecognizer setDirection:UISwipeGestureRecognizerDirectionUp];
     [[[CCDirector sharedDirector] view]
      addGestureRecognizer:swipeUpRecognizer];
     
@@ -120,9 +127,18 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [[UISwipeGestureRecognizer alloc]
      initWithTarget:self
      action:@selector(handleSwipeDown:)];
-    [swipeDownRecognizer setDirection:UISwipeGestureRecognizerDirectionDown]; // seconds
+    [swipeDownRecognizer setDirection:UISwipeGestureRecognizerDirectionDown];
     [[[CCDirector sharedDirector] view]
      addGestureRecognizer:swipeDownRecognizer];
+    
+    UISwipeGestureRecognizer* swipeRightRecognizer =
+    [[UISwipeGestureRecognizer alloc]
+     initWithTarget:self
+     action:@selector(handleSwipeRight:)];
+    [swipeRightRecognizer setDirection:UISwipeGestureRecognizerDirectionRight];
+    [[[CCDirector sharedDirector] view]
+     addGestureRecognizer:swipeRightRecognizer];
+
     
 }
 -(void)setupGrounds{
@@ -151,18 +167,17 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(void)setupHero{
     _heroAnimation = _hero.userObject;
     
-    //[_heroAnimation runAnimationsForSequenceNamed:@"Run"];
     _heroIsJumping = NO;
     _hero.physicsBody.collisionType = @"hero";
     _hero.zOrder = DrawingOrdeHero;
     _jumpVelocityY = 200.0f;
     
 }
--(void)setupObstacle{
+-(void)setupAnswerBook{
     
-        _bookAnswerBlue1.zOrder = DrawingOrderGround;
-        _bookAnswerBlue1.physicsBody.collisionType = @"obstacle";
-        _bookAnswerBlue1.physicsBody.sensor = NO;
+        _answerBookBlue.zOrder = DrawingOrderGround;
+        _answerBookBlue.physicsBody.collisionType = @"answerBook";
+        _answerBookBlue.physicsBody.sensor = YES;
     
 }
 
@@ -172,19 +187,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     _screenLimitLeft.position = ccp(_screenLimitLeft.position.x + (_scrollSpeed * delta), _screenLimitLeft.position.y);
     _screenLimitDown.position = ccp(_screenLimitDown.position.x + (_scrollSpeed * delta), _screenLimitDown.position.y);
     
-    if(!_gameOver)
-        _timeInGame +=delta;
-    
-    int time = floorf(_timeInGame);
-    if(time%10 == 0)
-        _scrollSpeed +=3;
-    
-    _timeScore.string = [NSString stringWithFormat:@"%.2f",_timeInGame];
-    
-    
-    //Update Parallax background
-    CGPoint backgroundScrollVel = ccp(-_scrollSpeed, 0);
-    _backgroundNode.position = ccpAdd(_backgroundNode.position, ccpMult(backgroundScrollVel, delta));
+        //Update Parallax background
+    _backgroundNode.position = ccp(_backgroundNode.position.x - (_scrollSpeed *delta), _backgroundNode.position.y);
     
     NSArray *backgrounds = [NSArray arrayWithObjects:_background1,_background2, nil];
     for (CCSprite *background in backgrounds) {
@@ -271,11 +275,11 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     }
 
 }
--(void)updateObstacle{
+-(void)updateAnswerBook{
 
     
         
-        CGPoint bookWolrdPosition = [_physicsNode convertToWorldSpace:_bookAnswerBlue1.position];
+        CGPoint bookWolrdPosition = [_physicsNode convertToWorldSpace:_answerBookBlue.position];
         CGPoint bookScreenPosition = [self convertToNodeSpace:bookWolrdPosition];
         
         // if the left corner is one complete width off the screen, move it to the right
@@ -283,13 +287,15 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
             NSLog(@"2ok");
             int random = 100 + arc4random() % (200 - 100);
             if(random == 150){
-                CCNode *oi =  [_groundsDown objectAtIndex:1];
-                _bookAnswerBlue1.position = ccp(oi.position.x+100, oi.position.y  + 30);
+                CCNode *groundDown =  [_groundsDown objectAtIndex:1];
+                _answerBookBlue.visible = YES;
+                _answerBookBlue.position = ccp(groundDown.position.x+_groundRandomPositionX + self.boundingBox.size.width, _groundRandomPositionY);
             }
         }
         
 
 }
+
 
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown {
@@ -311,7 +317,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 
     
     if(_gravityY > 0){
-        _heroIsJumping=NO;
+        _heroIsJumping=YES;
         _numberOfJumps = 0;
     }
     
@@ -340,7 +346,14 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     return YES;
     
 }
-
+-(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero answerBook:(CCNode *)answerBook{
+    
+    _answerBookBlue.visible = NO;
+    _capturedBooks++;
+    
+    return YES;
+    
+}
 
 //Autenticar o jogador
 //EVERTON
@@ -371,6 +384,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
              Nao foi usado direto no leaderboard ID pois o metodo loadDefaultLeaderboardIdentifierWithCompletionHandler é mais formal e correto.
              */
             //EVERTON
+
             if ([GKLocalPlayer localPlayer].authenticated) {
                 _gameCenterEnabled=YES;
                 // Get the default leaderboard identifier.
@@ -390,7 +404,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
                  o processo de login e desativa o gameCenterEnable
                  */
             }else{
-                
+
                 _gameCenterEnabled=NO;
             }
         }
@@ -401,7 +415,8 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer{
     
     if(_gravityY < 0)
-        [self heroRotate];
+        if(_gravityTimer ==500)
+            [self heroRotate];
     
 }
 -(void)handleSwipeDown:(UISwipeGestureRecognizer*)recognizer{
@@ -410,7 +425,47 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         [self heroRotate];
     
 }
+-(void)handleSwipeRight:(UISwipeGestureRecognizer*)recognizer{
+    
+    if(_capturedBooks>0){
+        
+        _capturedBooks--;
+        
+        [[CCDirector sharedDirector] pause];
+        [self addChild:[CCBReader loadAsScene:@"QuizScene"]];
+        
+    }
+    
+}
 
+-(void)countTimeinGame:(NSTimer *)theTime{
+    
+    if(!_gameOver)
+        _timeInGame +=0.001;
+    int time = (int)_timeInGame;
+    if(time%5 == 0)
+        _scrollSpeed +=0.1;
+    
+    //SETUP BOOT LIFE
+    if(_gravityTimer == 0){
+        [self heroRotate];
+    }
+    if(_gravityY<0)
+    {
+        if(_gravityTimer<500)
+            _gravityTimer ++;
+    }else{
+        if(_gravityTimer>=0){
+            _gravityTimer --;
+        }
+    }
+    
+    _timeScore.string = [NSString stringWithFormat:@"%.2f",_timeInGame];
+    _capturedBooksScore.string = [NSString stringWithFormat:@"%d",_capturedBooks];
+    _gravityBootTimer.string = [NSString stringWithFormat:@"%.0f",_gravityTimer/5];
+
+    
+}
 -(void)randomizeGrounds:(int)random{
     
     if(random >= 25 && random <=75){
@@ -454,21 +509,20 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     _hero.scaleX = -_hero.scaleX;
     [self.physicsNode setGravity:CGPointMake(0, _gravityY)];
 }
-- (void)spawnNewObstacle {
-    
 
-}
 -(void)restart{
     CCScene *scene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:scene];
+
     
 }
 -(void)gameEnds{
     if(!_gameOver){
-        [self setupGameCenter];
-        [self reportScore];
+
         _scrollSpeed = 0;
         _gameOver = YES;
+        [self setupGameCenter];
+        [self reportScore];
         _restartButtom.visible = YES;
         _hero.rotation = 180.0f;
         [_hero stopAllActions];

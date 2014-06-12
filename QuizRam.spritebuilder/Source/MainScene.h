@@ -8,6 +8,7 @@
 
 #import "CCNode.h"
 #import <GameKit/GameKit.h>
+#import "GameData.h"
 
 @interface MainScene : CCNode <CCPhysicsCollisionDelegate,UIGestureRecognizerDelegate,GKGameCenterControllerDelegate>
 
@@ -20,6 +21,7 @@
 @property (nonatomic) CCPhysicsNode *physicsNode;
 @property (nonatomic) UISwipeGestureRecognizer* swipeUpGesture;
 @property (nonatomic) UISwipeGestureRecognizer* swipeDownGesture;
+@property (nonatomic) UISwipeGestureRecognizer* swipeRightGesture;
 @property (nonatomic) CGFloat gravityY;
 @property (nonatomic) CGFloat scrollSpeed;
 @property (nonatomic) CCParallaxNode *backgroundNode;
@@ -33,6 +35,11 @@
 @property (nonatomic) BOOL gameOver;
 @property (nonatomic) CCLabelTTF *timeScore;
 @property (nonatomic) double timeInGame;
+@property (nonatomic) NSTimer *gameTimeCount;
+@property (nonatomic) CCLabelTTF* capturedBooksScore;
+@property (nonatomic) unsigned int capturedBooks;
+@property (nonatomic) CCLabelTTF* gravityBootTimer;
+@property (nonatomic) double gravityTimer;
 
 
 @property (nonatomic) CCSprite *hero;
@@ -58,8 +65,10 @@
 @property (nonatomic) CCNode* changedGround;
 
 
-@property (nonatomic) CCNode* bookAnswerBlue1;
+@property (nonatomic) CCNode* answerBookBlue;
 @property (nonatomic) int distanceBetweenObstacles;
+
+
 
 -(void)setup;
 -(void)setupGameCenter;
@@ -72,7 +81,7 @@
 -(void)updateGround;
 -(void)updateGroundDown;
 -(void)updateGroundUp;
--(void)updateObstacle;
+-(void)updateAnswerBook;
 
 
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown;
@@ -84,17 +93,16 @@
 -(void)authenticateLocalPlayer;
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer;
 -(void)handleSwipeDown:(UISwipeGestureRecognizer*)recognizer;
+-(void)handleSwipeRight:(UISwipeGestureRecognizer*)recognizer;
 
+-(void)countTimeinGame:(NSTimer*)theTime;
 -(void)randomizeGrounds:(int)random;
 
 -(void)heroJump;
 -(void)heroRotate;
--(void)spawnNewObstacle;
 
 -(void)gameEnds;
 -(void)restart;
-
-
 
 
 

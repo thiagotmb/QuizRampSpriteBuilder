@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<array>
+		<dict>
+			<key>Questao</key>
+			<string>Quanto é 2 + 2?</string>
+			<key>Alternativa1</key>
+			<string>2</string>
+			<key>Alternativa2</key>
+			<string>3</string>
+			<key>Alternativa3</key>
+			<string>4</string>
+			<key>Alternativa4</key>
+			<string>5</string>
+			<key>Resposta</key>
+			<string>Alternativa3</string>
+			<key>Instituicao</key>
+			<string>URFJ</string>
+		</dict>
+		<dict>
+			<key>Questao</key>
+			<string>Quanto é 1 + 1?</string>
+			<key>Alternativa1</key>
+			<string>1</string>
+			<key>Alternativa2</key>
+			<string>2</string>
+			<key>Alternativa3</key>
+			<string>3</string>
+			<key>Alternativa4</key>
+			<string>4</string>
+			<key>Resposta</key>
+			<string>Alternativa2</string>
+			<key>Instituicao</key>
+			<string>UCB</string>
+		</dict>
+	</array>
+	<array>
+		<dict>
+			<key>Questao</key>
+			<string>Quantos estados tem o Brasil?</string>
+			<key>Alternativa1</key>
+			<string>25</string>
+			<key>Alternativa2</key>
+			<string>26</string>
+			<key>Alternativa3</key>
+			<string>27</string>
+			<key>Alternativa4</key>
+			<string>28</string>
+			<key>Resposta</key>
+			<string>Alternativa3</string>
+			<key>Instituicao</key>
+			<string>UNB</string>
+		</dict>
+		<dict>
+			<key>Questao</key>
+			<string>Qual foi a primeira capital do Brasil?</string>
+			<key>Alternativa1</key>
+			<string>Brasilia</string>
+			<key>Alternativa2</key>
+			<string>Salvador</string>
+			<key>Alternativa3</key>
+			<string>Belo Horizonte</string>
+			<key>Alternativa4</key>
+			<string>Rio de Janeiro</string>
+			<key>Resposta</key>
+			<string>Alternativa2</string>
+			<key>Instituicao</key>
+			<string>ITA</string>
+		</dict>
+	</array>
+</array>
+</plist>
