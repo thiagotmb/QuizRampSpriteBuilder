@@ -3,7 +3,10 @@
 <plist version="1.0">
 <dict>
 	<key>filenames</key>
-	<dict/>
+	<dict>
+		<key>Background/Botao - Tutorial-1.psd</key>
+		<string>Background/Botao - Tutorial-1.png</string>
+	</dict>
 	<key>metadata</key>
 	<dict>
 		<key>version</key>

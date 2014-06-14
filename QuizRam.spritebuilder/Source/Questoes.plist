@@ -2,73 +2,732 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <array>
-	<array>
-		<dict>
-			<key>Questao</key>
-			<string>Quanto é 2 + 2?</string>
-			<key>Alternativa1</key>
-			<string>2</string>
-			<key>Alternativa2</key>
-			<string>3</string>
-			<key>Alternativa3</key>
-			<string>4</string>
-			<key>Alternativa4</key>
-			<string>5</string>
-			<key>Resposta</key>
-			<string>Alternativa3</string>
-			<key>Instituicao</key>
-			<string>URFJ</string>
-		</dict>
-		<dict>
-			<key>Questao</key>
-			<string>Quanto é 1 + 1?</string>
-			<key>Alternativa1</key>
-			<string>1</string>
-			<key>Alternativa2</key>
-			<string>2</string>
-			<key>Alternativa3</key>
-			<string>3</string>
-			<key>Alternativa4</key>
-			<string>4</string>
-			<key>Resposta</key>
-			<string>Alternativa2</string>
-			<key>Instituicao</key>
-			<string>UCB</string>
-		</dict>
-	</array>
-	<array>
-		<dict>
-			<key>Questao</key>
-			<string>Quantos estados tem o Brasil?</string>
-			<key>Alternativa1</key>
-			<string>25</string>
-			<key>Alternativa2</key>
-			<string>26</string>
-			<key>Alternativa3</key>
-			<string>27</string>
-			<key>Alternativa4</key>
-			<string>28</string>
-			<key>Resposta</key>
-			<string>Alternativa3</string>
-			<key>Instituicao</key>
-			<string>UNB</string>
-		</dict>
-		<dict>
-			<key>Questao</key>
-			<string>Qual foi a primeira capital do Brasil?</string>
-			<key>Alternativa1</key>
-			<string>Brasilia</string>
-			<key>Alternativa2</key>
-			<string>Salvador</string>
-			<key>Alternativa3</key>
-			<string>Belo Horizonte</string>
-			<key>Alternativa4</key>
-			<string>Rio de Janeiro</string>
-			<key>Resposta</key>
-			<string>Alternativa2</string>
-			<key>Instituicao</key>
-			<string>ITA</string>
-		</dict>
-	</array>
+	<dict>
+		<key>Tipo</key>
+		<string>Portugues</string>
+		<key>Questao</key>
+		<string>Dentre as palavras abaixo, apenas uma apresenta prefixo e sufixo. Assinale-a.
+	
+</string>
+		<key>Alternativa1</key>
+		<string>desvio</string>
+		<key>Alternativa2</key>
+		<string>influir</string>
+		<key>Alternativa3</key>
+		<string>repulsa</string>
+		<key>Alternativa4</key>
+		<string>desconfortável</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>ACAFE</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Portugues</string>
+		<key>Questao</key>
+		<string>A frase em que os vocábulos sublinhados pertencem à mesma classe gramatical, exercem a mesma função sintática e têm significado diferente é:</string>
+		<key>Alternativa1</key>
+		<string>O Brasil será um grande parceiro e não apenas um parceiro grande.
+</string>
+		<key>Alternativa2</key>
+		<string>O novo novo: será que tudo já não foi feito antes?
+</string>
+		<key>Alternativa3</key>
+		<string>O carro popular a 12.000 reais está longe de ser popular.
+</string>
+		<key>Alternativa4</key>
+		<string>É trágico verificar que, na televisão brasileira, só o trágico é que faz sucesso.
+</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Portugues</string>
+		<key>Questao</key>
+		<string>Assinale, abaixo, a alternativa em cujo enunciado NÃO está presente a idéia de comparação.</string>
+		<key>Alternativa1</key>
+		<string>Os celulares se multiplicam como saúvas, brotam como capim.
+</string>
+		<key>Alternativa2</key>
+		<string>Como resultado, a própria velocidade do tempo passou a ser um valor em si.
+</string>
+		<key>Alternativa3</key>
+		<string>As pessoas portam o aparelhinho como se fosse uma peça do vestuário.
+</string>
+		<key>Alternativa4</key>
+		<string>A rapidez das mudanças tecnológicas assemelha-se à das mudanças de costumes.
+</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UEMG</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Biologia</string>
+		<key>Questao</key>
+		<string>Nos cães da raça labrador, a determinação das cores chocolate, preta e dourada é determinada pela interação de dois pares de genes, no qual o alelo B determina a produção de pigmento preto e seu alelo recessivo, o pigmento marrom. O alelo E condiciona a produção de pigmentos nos pelos, já o seu alelo recessivo não condiciona essa deposição, atua como epistático sobre B e b, determinando a cor dourada. Do cruzamento entre um macho e uma fêmea, ambos pretos e duplo heterozigotos, espera-se uma prole na proporção de:</string>
+		<key>Alternativa1</key>
+		<string>9: 3: 3:1.</string>
+		<key>Alternativa2</key>
+		<string>9: 4: 3.</string>
+		<key>Alternativa3</key>
+		<string>12: 3: 1.</string>
+		<key>Alternativa4</key>
+		<string>15: 1.</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>VUNESP</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Biologia</string>
+		<key>Questao</key>
+		<string>Uma característica genética recessiva presente no cromossomo Y é:</string>
+		<key>Alternativa1</key>
+		<string>poder ser herdada do pai ou da mãe pelos descendentes do sexo masculino e do feminino.</string>
+		<key>Alternativa2</key>
+		<string>só poder ser herdada a partir do pai por seus descendentes do sexo masculino.</string>
+		<key>Alternativa3</key>
+		<string>só poder ser herdada a partir do pai por seus descendentes do sexo feminino.</string>
+		<key>Alternativa4</key>
+		<string>só poder ser herdada a partir da mãe por seus descendentes do sexo masculino.</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UFMG</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Biologia</string>
+		<key>Questao</key>
+		<string>Duas irmãs, que nunca apresentaram problemas de hemorragia, tiveram filhos. E todos eles, após extrações de dente, sempre tinham hemorragia. No entanto os filhos do irmão das duas mulheres nunca apresentaram esse tipo de problema. É CORRETO afirmar que essa situação reflete, mais provavelmente, um padrão de herança:
+</string>
+		<key>Alternativa1</key>
+		<string>dominante ligada ao cromossoma Y.</string>
+		<key>Alternativa2</key>
+		<string>dominante ligada ao cromossoma X.</string>
+		<key>Alternativa3</key>
+		<string>recessiva ligada ao cromossoma X.</string>
+		<key>Alternativa4</key>
+		<string>restrita ao cromossoma Y.</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>UFMG - RIO</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Biologia</string>
+		<key>Questao</key>
+		<string>Numa espécie de planta, a cor das flores é determinada por um par de alelos. Plantas de flores vermelhas cruzadas com plantas de flores brancas produzem plantas de flores cor-de-rosa.
+Do cruzamento entre plantas de flores cor de-rosa, resultam plantas com flores:</string>
+		<key>Alternativa1</key>
+		<string>das três cores, em igual proporção.</string>
+		<key>Alternativa2</key>
+		<string>das três cores, prevalecendo as cor-de-rosa.</string>
+		<key>Alternativa3</key>
+		<string>das três cores, prevalecendo as vermelhas.</string>
+		<key>Alternativa4</key>
+		<string>somente cor-de-rosa.</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Biologia</string>
+		<key>Questao</key>
+		<string>Uma criança do sexo masculino, que acaba de nascer, tem como pai um indivíduo que apresenta hemofilia e é normal com relação ao daltonismo. Sua mãe é portadora do gen para o daltonismo, mas não para o gen da hemofilia. Quanto a essa criança, podemos afirmar que:</string>
+		<key>Alternativa1</key>
+		<string>tem 50% de chance de ser daltônica.</string>
+		<key>Alternativa2</key>
+		<string>tem 50% de chance de ser hemofílica.</string>
+		<key>Alternativa3</key>
+		<string>tem 25% de chance de ser hemofílica.</string>
+		<key>Alternativa4</key>
+		<string>tem 75% de chance de ser daltônica.</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>PUC - RIO</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Informatica</string>
+		<key>Questao</key>
+		<string>Na década de 80 do século passado, foi inaugurado o primeiro cabo submarino feito de fibra ótica. Atualmente todos os continentes da Terra já estão conectados por cabos submarinos feitos dessa fibra. Na comunicação por fibra ótica, o sinal se propaga obedecendo a um importante fenômeno da ótica geométrica. Assinale a alternativa que apresenta esse fenômeno.</string>
+		<key>Alternativa1</key>
+		<string>Refração</string>
+		<key>Alternativa2</key>
+		<string>Reflexão interna total.</string>
+		<key>Alternativa3</key>
+		<string>Dispersão</string>
+		<key>Alternativa4</key>
+		<string>Reflexão difusa.</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UFPR</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Fisica</string>
+		<key>Questao</key>
+		<string>Um refrigerador doméstico tem potência de 180 W. Em um período de 24 horas, o compressor funciona cerca de 10 horas e, com isso, mantém a temperatura adequada no interior do aparelho. Sabendo-se que o funcionamento desse refrigerador representa, em média, 25% do consumo mensal de energia, pode-se estimar o consumo mensal, em kWh, dessa residência, em:</string>
+		<key>Alternativa1</key>
+		<string>54</string>
+		<key>Alternativa2</key>
+		<string>96</string>
+		<key>Alternativa3</key>
+		<string>128</string>
+		<key>Alternativa4</key>
+		<string>216</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Quimica</string>
+		<key>Questao</key>
+		<string>Ao cortar cebolas com uma faca, nossos olhos ficam irritados e há formação de lágrimas. Isso se deve ao fato de que a pressão causada pela faca faz com que sejam liberadas substâncias que reagem quimicamente entre si, formando-se um composto gasoso, contendo enxofre. Tal composto entra em contato com os olhos e produz ácido sulfúrico. O cérebro responde a essa situação e dispara o sinal para a produção de lágrimas, havendo consequente diluição do ácido.
+Levando em consideração essa explicação, a irritação nos olhos não será atenuada se cortarmos uma cebola</string>
+		<key>Alternativa1</key>
+		<string>dentro de um recipiente contendo água.</string>
+		<key>Alternativa2</key>
+		<string>após resfriá-la em uma geladeira.</string>
+		<key>Alternativa3</key>
+		<string>usando-se óculos com boa vedação.</string>
+		<key>Alternativa4</key>
+		<string>em ambiente com pouca iluminação</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Quimica</string>
+		<key>Questao</key>
+		<string>Para que uma transformação química esteja em estado de equilíbrio dinâmico, é necessário, entre outros fatores, que</string>
+		<key>Alternativa1</key>
+		<string>os reagentes e produtos sejam incolores.</string>
+		<key>Alternativa2</key>
+		<string>os reagentes e produtos estejam em estados físicos diferentes.</string>
+		<key>Alternativa3</key>
+		<string>haja liberação de calor do sistema para o ambiente.</string>
+		<key>Alternativa4</key>
+		<string>haja coexistência de reagentes e produtos no sistema.</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>FATEC</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Quimica</string>
+		<key>Questao</key>
+		<string>Em setembro de 2011, no Rio Grande do Sul, pessoas alegaram ter sofrido queimaduras depois de beberem um achocolatado. Em março de 2013, um caso semelhante voltou a ocorrer, agora com um suco de maçã. Em função de problemas semelhantes durante o processo de higienização, o achocolatado foi contaminado por água sanitária e o suco de maçã substituído por soda cáustica 2,5 %. Pode-se afirmar que, comparados aos produtos não contaminados, os líquidos que causaram problemas aos consumidores apresentavam-se</string>
+		<key>Alternativa1</key>
+		<string>mais ácidos e, portanto, com maiores valores de pH.</string>
+		<key>Alternativa2</key>
+		<string>mais ácidos e, portanto, com menores valores de pH.</string>
+		<key>Alternativa3</key>
+		<string>mais básicos e, portanto, com maiores valores de pH.</string>
+		<key>Alternativa4</key>
+		<string>mais básicos e, portanto, com menores valores de pH.</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>UNICAMP</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Quimica</string>
+		<key>Questao</key>
+		<string>Uma usina de reciclagem de plástico recebeu um lote de ras pas de 2 tipos de plásticos, um deles com densidade 1,10 kg/L e outro com densidade 1,14 kg/L. Para efetuar a sparação dos dois tipos de plásticos, foi necessário preparar 1000 L de uma solução de densidade apropriada, misturando-se volumes adequados de água (densidade = 1,00 kg/L) e de uma solução aquosa de NaCl, disponível no almoxarifado da usina, de densidade 1,25 kg/L. Esses volumes, em litros, podem ser, respectivamente,</string>
+		<key>Alternativa1</key>
+		<string>900 e 100</string>
+		<key>Alternativa2</key>
+		<string>800 e 200</string>
+		<key>Alternativa3</key>
+		<string>500 e 500</string>
+		<key>Alternativa4</key>
+		<string>200 e 800</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Quimica</string>
+		<key>Questao</key>
+		<string>O rótulo de uma lata de desodorante em aerosol apresenta, entre outras, as seguintes informações: “Propelente: gás butano. Mantenha longe do fogo”. A principal razão dessa advertência é:</string>
+		<key>Alternativa1</key>
+		<string>O aumento da temperatura faz aumentar a pressão do gás no interior da lata, o que pode causar uma explosão.</string>
+		<key>Alternativa2</key>
+		<string>A lata é feita de alumínio, que, pelo aquecimento, pode reagir com o oxigênio do ar.</string>
+		<key>Alternativa3</key>
+		<string>O aquecimento provoca o aumento do volume da lata, com a consequente condensação do gás em seu interior.</string>
+		<key>Alternativa4</key>
+		<string>O aumento da temperatura provoca a polimerização do gás butano, inutilizando o produto.</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Fisica</string>
+		<key>Questao</key>
+		<string>Dentro de um balão volumétrico, tem-se um gás perfeito a uma temperatura de 0°C ocupando um volume de 22,4 litros sob pressão de 1 atm. Esse gás sofre uma tranformação gasosa obtendo temperatura final de 27°C a uma pressão de 1 atm.
+
+Assinale a afirmação correta sobre a transformação gassa sofrida e sobre seu volume final aproximado, em L.</string>
+		<key>Alternativa1</key>
+		<string>Isométrica e 25,4.</string>
+		<key>Alternativa2</key>
+		<string>Isornétrica e 22,4.</string>
+		<key>Alternativa3</key>
+		<string>Isobárica e 22,4.</string>
+		<key>Alternativa4</key>
+		<string>Isobárica e 24,6.</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>FATEC</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Fisica</string>
+		<key>Questao</key>
+		<string>A tecnologia de telefonia celular 4G passou a ser utilizada no Brasil em 2013, como parte da iniciativa de melhoria geral dos serviços no Brasil, em preparação para a Copa do Mundo de 2014. Algumas operadoras inauguraram serviços com ondas eletromagnéticas na frequência de 40 MHz. Sendo a velocidade da luz no vácuo c = 3,0 108 m/s , o comprimento de onda dessas ondas eletromagnéticas é</string>
+		<key>Alternativa1</key>
+		<string>1,2 m</string>
+		<key>Alternativa2</key>
+		<string>7,5 m</string>
+		<key>Alternativa3</key>
+		<string>5,0 m</string>
+		<key>Alternativa4</key>
+		<string>12,0 m</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UNICAMP</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Fisica</string>
+		<key>Questao</key>
+		<string>Em uma competição de salto em distância, um atleta de 70kg tem, imediatamente antes do salto, uma velocidade na direção horizontal de módulo 10m/s. Ao saltar, o atleta usa seus músculos para empurrar o chão na direção vertical, produzindo uma energia de 500J, sendo 70% desse valor na forma de energia cinética. Imediatamente após se separar do chão o módulo da velocidade do atleta é mais próximo de</string>
+		<key>Alternativa1</key>
+		<string>10,0 m/s</string>
+		<key>Alternativa2</key>
+		<string>10,5 m/s</string>
+		<key>Alternativa3</key>
+		<string>12,2 m/s</string>
+		<key>Alternativa4</key>
+		<string>13,2 m/s</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Fisica</string>
+		<key>Questao</key>
+		<string>No sistema cardiovascular de um ser humano, o coração funciona como uma bomba, com potência média de 10W, responsável pela circulação sanguínea. Se uma pessoa fizer uma dieta alimentar de 2500 kcal diárias, a porcentagem dessa energia utilizada para manter sua circulação sanguínea será, aproximadamente, igual a
+
+Note e adote
+
+1 cal = 4J</string>
+		<key>Alternativa1</key>
+		<string>1%</string>
+		<key>Alternativa2</key>
+		<string>4%</string>
+		<key>Alternativa3</key>
+		<string>9%</string>
+		<key>Alternativa4</key>
+		<string>20%</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Geografia</string>
+		<key>Questao</key>
+		<string>Em se tratando de questões de natureza cartográfica, assinale o correto.</string>
+		<key>Alternativa1</key>
+		<string>Escalas como 1:1.000.000 e 1:500.000 são muito adequadas para a cartografia de detalhe, especialmente de áreas urbanas.</string>
+		<key>Alternativa2</key>
+		<string>A realização de mapeamentos temáticos muito detalhados requer a utilização de produtos de sensoriamento remoto de alta resolução e com grandes escalas.</string>
+		<key>Alternativa3</key>
+		<string>O relevo, os solos e a vegetação são cartograficamente representados, nesta ordem, nos mapas geológicos, geomorfológicos e biogeográficos.</string>
+		<key>Alternativa4</key>
+		<string>n.d.a</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UECE</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>O gráfico da função f, de R em R, definida por f(x) = x2 + 3x - 10, intercepta o eixo das abscissas nos pontos A e B. A distância AB é igual a:</string>
+		<key>Alternativa1</key>
+		<string>3</string>
+		<key>Alternativa2</key>
+		<string>5</string>
+		<key>Alternativa3</key>
+		<string>7</string>
+		<key>Alternativa4</key>
+		<string>8</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>UNIFORM</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string> Em R, o produto das soluções da inequação 2x - 3 £ 3 é:
+</string>
+		<key>Alternativa1</key>
+		<string>Marior que 8</string>
+		<key>Alternativa2</key>
+		<string>6</string>
+		<key>Alternativa3</key>
+		<string>1</string>
+		<key>Alternativa4</key>
+		<string>0</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>MACK</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>O gráfico da função y = ax2 + bx + c tem uma só intersecção com o eixo Ox e corta o eixo Oy em (0, 1). Então, os valores de a e b obedecem à relação:</string>
+		<key>Alternativa1</key>
+		<string>b2 = 4a </string>
+		<key>Alternativa2</key>
+		<string>b2 = 4a </string>
+		<key>Alternativa3</key>
+		<string>b = 2a</string>
+		<key>Alternativa4</key>
+		<string> a2 = -4a</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>CEFET - BA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Assinale a equação que representa uma parábola voltada para baixo, tangente ao eixo das abscissas:</string>
+		<key>Alternativa1</key>
+		<string>y = x2</string>
+		<key>Alternativa2</key>
+		<string>y = x2 - 4x + 4</string>
+		<key>Alternativa3</key>
+		<string>y = -x2 + 4x - 4
+</string>
+		<key>Alternativa4</key>
+		<string>y = -x2 + 5x - 6
+</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>ULBRA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>O lucro de uma loja, pela venda diária de x peças, é dado por L(x) = 100 (10 - x) (x - 4). O lucro máximo, por dia, é obtido com a venda de:</string>
+		<key>Alternativa1</key>
+		<string>7</string>
+		<key>Alternativa2</key>
+		<string>10</string>
+		<key>Alternativa3</key>
+		<string>14</string>
+		<key>Alternativa4</key>
+		<string>50</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>PUC - MG</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Considerando-se a função real f(x) = -2x2 + 4x + 12, o valor máximo desta função é:</string>
+		<key>Alternativa1</key>
+		<string>1</string>
+		<key>Alternativa2</key>
+		<string>3</string>
+		<key>Alternativa3</key>
+		<string>12</string>
+		<key>Alternativa4</key>
+		<string>14</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>UE - FEIRA DE SANTANA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>As probabilidades de três jogadores marcarem um gol cobrando pênalti são, respectivamente, 1/2, 2/5, e 5/6. Se cada um bater um único pênalti, a probabilidade de todos errarem é igual a:
+ </string>
+		<key>Alternativa1</key>
+		<string>3%</string>
+		<key>Alternativa2</key>
+		<string>5%</string>
+		<key>Alternativa3</key>
+		<string>17%</string>
+		<key>Alternativa4</key>
+		<string>20%</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UNI - RIO</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Sabendo-se que a probabilidade de que um animal adquira certa enfermidade, no decurso de cada mês, é igual a 30%, a probabilidade de que um animal sadio venha a contrair a doença só no 3° mês é igual a:iderando-se a função real f(x) = -2x2 + 4x + 12, o valor máximo desta função é:</string>
+		<key>Alternativa1</key>
+		<string>21%</string>
+		<key>Alternativa2</key>
+		<string>49%</string>
+		<key>Alternativa3</key>
+		<string>6,3%</string>
+		<key>Alternativa4</key>
+		<string>14,7%</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>DESCONHECIDA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Considere todas as trinta e duas seqüências, com cinco elementos cada uma, que podem ser formadas com os algarismos 0 e 1. Quantas dessas seqüências possuem pelo menos três zeros em posições consecutivas?</string>
+		<key>Alternativa1</key>
+		<string>3</string>
+		<key>Alternativa2</key>
+		<string>5</string>
+		<key>Alternativa3</key>
+		<string>8</string>
+		<key>Alternativa4</key>
+		<string>12</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Uma urna contém 3 bolas numeradas de 1 a 3 e outra urna com 5 bolas numeradas de 1 a 5. Ao retirar-se aleatoriamente uma bola de cada uma, a probabilidade da soma dos pontos ser maior do que 4 é:</string>
+		<key>Alternativa1</key>
+		<string>3/5</string>
+		<key>Alternativa2</key>
+		<string>2/5</string>
+		<key>Alternativa3</key>
+		<string>1/2</string>
+		<key>Alternativa4</key>
+		<string>1/3</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>DESCONHECIDA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>De uma  urna contendo 10 bolas coloridas, sendo 4 brancas, 3 pretas, 2 vermelhas e 1 verde, retiram-se, de uma vez, 4 bolas. Quantos são os casos possíveis em que aparecem exatamente uma bola de cada cor?</string>
+		<key>Alternativa1</key>
+		<string>120</string>
+		<key>Alternativa2</key>
+		<string>72</string>
+		<key>Alternativa3</key>
+		<string>24</string>
+		<key>Alternativa4</key>
+		<string>18</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Um professor de Matemática comprou dois livros para premiar dois alunos de uma classe de 42 alunos. Como são dois livros diferentes, de quantos modos distintos pode ocorrer a premiação?</string>
+		<key>Alternativa1</key>
+		<string>861</string>
+		<key>Alternativa2</key>
+		<string>1722</string>
+		<key>Alternativa3</key>
+		<string>1764</string>
+		<key>Alternativa4</key>
+		<string>242</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UEL</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>O número de soluções inteiras, maiores ou iguais a zero, da equação x + y + z + w = 5 é:</string>
+		<key>Alternativa1</key>
+		<string>36</string>
+		<key>Alternativa2</key>
+		<string>48</string>
+		<key>Alternativa3</key>
+		<string>52</string>
+		<key>Alternativa4</key>
+		<string>56</string>
+		<key>Resposta</key>
+		<string>Alternativa4</string>
+		<key>Instituicao</key>
+		<string>ITA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string> Dentre os anagramas distintos que podemos formar com n letras, das quais duas são iguais, 120 apresentam estas duas letras iguais juntas. O valor de n é:</string>
+		<key>Alternativa1</key>
+		<string>4</string>
+		<key>Alternativa2</key>
+		<string>5</string>
+		<key>Alternativa3</key>
+		<string>6</string>
+		<key>Alternativa4</key>
+		<string>122</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>ITA</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Se p é uma proposição verdadeira, então:</string>
+		<key>Alternativa1</key>
+		<string>p ^ q é verdadeira, qualquer que seja q</string>
+		<key>Alternativa2</key>
+		<string> p v q é verdadeira, qualquer que seja q</string>
+		<key>Alternativa3</key>
+		<string>p ^ q é verdadeira só se q for falsa</string>
+		<key>Alternativa4</key>
+		<string> p =&gt;q é falsa, qualquer que seja q</string>
+		<key>Resposta</key>
+		<string>Alternativa2</string>
+		<key>Instituicao</key>
+		<string>UFB</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Se A é uma matriz 3 x 4 e B uma matriz n x m, então:</string>
+		<key>Alternativa1</key>
+		<string>existe A + B se, e somente se, n = 4 e m = 3;</string>
+		<key>Alternativa2</key>
+		<string>existe AB se, e somente se, n = 4 e m = 3;
+</string>
+		<key>Alternativa3</key>
+		<string>existem AB e BA se, e somente se, n = 4 e m = 3;</string>
+		<key>Alternativa4</key>
+		<string>existem, iguais, A + B e B + A se, e somente se, A = B;</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>MACK</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Se A, B e C são matrizes quadradas e At, Bt e Ct são suas matrizes transpostas, e igualdade falsa entre essas matrizes é:</string>
+		<key>Alternativa1</key>
+		<string> (A = B) . C = A . C + B . C</string>
+		<key>Alternativa2</key>
+		<string>(A + B)t = At + Bt
+</string>
+		<key>Alternativa3</key>
+		<string>(A . B)t = At . Bt</string>
+		<key>Alternativa4</key>
+		<string>(At)t = A</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>PUC</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>Sendo x3 + 1 = (x + 1) (x2 + ax + b) para todo x real, os valores de a e b são, respectivamente:</string>
+		<key>Alternativa1</key>
+		<string>-1 e 1</string>
+		<key>Alternativa2</key>
+		<string>0 e 0</string>
+		<key>Alternativa3</key>
+		<string>1 e 1</string>
+		<key>Alternativa4</key>
+		<string>1 e -1</string>
+		<key>Resposta</key>
+		<string>Alternativa1</string>
+		<key>Instituicao</key>
+		<string>PUC</string>
+	</dict>
+	<dict>
+		<key>Tipo</key>
+		<string>Matematica</string>
+		<key>Questao</key>
+		<string>A diferença entre o cubo da soma de dois números inteiros e a soma de seus cubos pode ser:</string>
+		<key>Alternativa1</key>
+		<string>4</string>
+		<key>Alternativa2</key>
+		<string>5</string>
+		<key>Alternativa3</key>
+		<string>6</string>
+		<key>Alternativa4</key>
+		<string>7</string>
+		<key>Resposta</key>
+		<string>Alternativa3</string>
+		<key>Instituicao</key>
+		<string>FUVEST</string>
+	</dict>
 </array>
 </plist>

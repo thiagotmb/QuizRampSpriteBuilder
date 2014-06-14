@@ -6,7 +6,6 @@
 
 
 #import "MainScene.h"
-#import "CCParallaxNode-Extras.h"
 
 
 
@@ -17,37 +16,42 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     DrawingOrdeHero
 };
 
+static const unsigned int gravityTimeMax = 100;
+
 @implementation MainScene
 
-- (void)didLoadFromCCB {
+-(void)didLoadFromCCB {
     
     [self setup];
     
     
 }
-
-
 -(void)onExit{
     NSArray *grs = [[[CCDirector sharedDirector] view] gestureRecognizers];
     
+    //List all gestures and dealloc from scene
     for (UIGestureRecognizer *gesture in grs){
         if([gesture isKindOfClass:[UILongPressGestureRecognizer class]]){
             [[[CCDirector sharedDirector] view] removeGestureRecognizer:gesture];
         }
+        _gameData.scrollSceneSpeed =300;
+
     }
+
+    [super onExit];
 }
 
-- (void)update:(CCTime)delta {
+-(void)update:(CCTime)delta {
     
 
     [self updateScene:delta];
         
     [self updateGround];
 
-    [self updateAnswerBook];
+    [self updateQuestionBook];
 
 }
-- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+-(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
     
     [self heroJump];
     
@@ -68,32 +72,33 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
     
 }
--(void)setupGameCenter{
-    _gameCenterEnabled = NO;
-    _leaderboardIdentifier = @"";
-    //Chamar o authenticateLocalPlayer
-    //EVERTON
-    [self authenticateLocalPlayer];
-    
-}
+
 -(void)setupScene{
+    _gameData = [GameData sharedManager];
+    _gameData.lastScoreSurvivalTime = 0;
+    _gameData.lastScoreCapturedBooks = 0;
+    _gameData.lastScoreRightAnswer = 0;
+    _gameData.lastScoreWrongAnswer = 0;
+    _gameData.lastScorePointAnswer = 0;
+    _gameData.scrollSceneSpeed = 300;
+    _gameData.scrollSceneSpeed = 300;
+    
+    _gameCenter = [[GameCenterViewController alloc] init];
+    
+    
+    _gravityY = -500;
+    _physicsNode.gravity = ccp(0, _gravityY);
     _physicsNode.collisionDelegate = self;
     _physicsNode.debugDraw = NO;
     _physicsNode.iterations = 100;
     
     self.userInteractionEnabled = YES;
-    _gravityY = -500;
-    _scrollSpeed = 200;
-    _physicsNode.gravity = ccp(0, _gravityY);
-    
     _screenLimitDown.physicsBody.sensor = YES;
     _screenLimitDown.physicsBody.collisionType = @"screenDown";
     _screenLimitLeft.physicsBody.sensor = YES;
     _screenLimitLeft.physicsBody.collisionType = @"screenLeft";
     
     _timeInGame = 0;
-    _capturedBooks = 0;
-    _gravityTimer = 1;
 
     //Setup Parallax Background
     _backgroundNode = [CCParallaxNode node];
@@ -109,7 +114,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background4.position.y)];
     [self addChild:_backgroundNode z:-1];
     
-    _gameTimeCount = [NSTimer scheduledTimerWithTimeInterval:0.001 target:self selector:@selector(countTimeinGame:) userInfo:nil repeats:YES];
+    _gameTimeCount = [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(countTimeinGame:) userInfo:nil repeats:YES];
 
     
 }
@@ -172,23 +177,75 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     _hero.zOrder = DrawingOrdeHero;
     _jumpVelocityY = 200.0f;
     
+    _gravityTimer = 0;
+
+    CCProgressNode *bound = [CCProgressNode progressWithSprite:_bootTimerSprite];
+    bound.type = CCProgressNodeTypeBar;
+    bound.scaleX = 5;
+    bound.scaleY = 2.2;
+    bound.midpoint = ccp(0.0f, 0.0f);
+    bound.barChangeRate = ccp(1.0f, 0.0f);
+    bound.percentage = 100;
+    bound.positionType = CCPositionTypeNormalized;
+    bound.position = ccp(0.9f, 0.72f);
+    bound.opacity = 0.3;
+    
+    [self addChild:bound];
+    
+    
+    _bootTimerProgressBar = [CCProgressNode progressWithSprite:_bootTimerSprite];
+    _bootTimerProgressBar.type = CCProgressNodeTypeBar;
+    _bootTimerProgressBar.scaleX = 6;
+    _bootTimerProgressBar.scaleY = 2.2;
+    _bootTimerProgressBar.midpoint = ccp(0.0f, 0.0f);
+    _bootTimerProgressBar.barChangeRate = ccp(1.0f, 0.0f);
+    _bootTimerProgressBar.percentage =_gravityTimer;
+    _bootTimerProgressBar.positionType = CCPositionTypeNormalized;
+    _bootTimerProgressBar.position = ccp(0.9f, 0.72f);
+    
+    [self addChild:_bootTimerProgressBar];
+
+    
 }
 -(void)setupAnswerBook{
-    
-        _answerBookBlue.zOrder = DrawingOrderGround;
-        _answerBookBlue.physicsBody.collisionType = @"answerBook";
-        _answerBookBlue.physicsBody.sensor = YES;
+    _timeOfSpawnBooks = 0;
+    _capturedBooks = 0;
+    _questionBookBlue.zOrder = DrawingOrderGround;
+    _questionBookBlue.physicsBody.collisionType = @"answerBook";
+    _questionBookBlue.physicsBody.sensor = YES;
     
 }
 
 -(void)updateScene:(CCTime)delta{
-    _hero.position = ccp(_hero.position.x + delta * _scrollSpeed, _hero.position.y);
-    _physicsNode.position = ccp(_physicsNode.position.x - (_scrollSpeed *delta), _physicsNode.position.y);
-    _screenLimitLeft.position = ccp(_screenLimitLeft.position.x + (_scrollSpeed * delta), _screenLimitLeft.position.y);
-    _screenLimitDown.position = ccp(_screenLimitDown.position.x + (_scrollSpeed * delta), _screenLimitDown.position.y);
+        
+    [self updateHero:delta];
     
-        //Update Parallax background
-    _backgroundNode.position = ccp(_backgroundNode.position.x - (_scrollSpeed *delta), _backgroundNode.position.y);
+    _physicsNode.position = ccp(_physicsNode.position.x - (_gameData.scrollSceneSpeed *delta), _physicsNode.position.y);
+    
+    _screenLimitLeft.position = ccp(_screenLimitLeft.position.x + (_gameData.scrollSceneSpeed * delta), _screenLimitLeft.position.y);
+    _screenLimitDown.position = ccp(_screenLimitDown.position.x + (_gameData.scrollSceneSpeed * delta), _screenLimitDown.position.y);
+    
+    [self updateParallaxBackground:delta];
+    
+    //If game no ends increment times
+    if(!_gameOver){
+        _timeInGame +=0.015;
+        _timeOfSpawnBooks++;
+    }
+    _gameData.lastScoreSurvivalTime = _timeInGame;
+    
+    //Increment scroll speed if passed five seconds
+    int time = (int)_timeInGame;
+    if(time%5 == 0){
+        _gameData.scrollSceneSpeed +=2;
+       
+    }
+    
+    
+}
+-(void)updateParallaxBackground:(CCTime)delta{
+    
+    _backgroundNode.position = ccp(_backgroundNode.position.x - (_gameData.scrollSceneSpeed *delta), _backgroundNode.position.y);
     
     NSArray *backgrounds = [NSArray arrayWithObjects:_background1,_background2, nil];
     for (CCSprite *background in backgrounds) {
@@ -203,8 +260,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
             [_backgroundNode incrementOffset:ccp(2*background.boundingBox.size.width,0) forChild:background];
         }
     }
-
-    
 }
 -(void)updateGround{
     [self updateGroundDown];
@@ -225,6 +280,7 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         
         _groundRandomPositionX = minXPosition + arc4random() % (maxXPosition - minXPosition);
         _groundRandomPositionY = minYPosition + arc4random() % (maxYPosition - minXPosition);
+        
         // if the left corner is one complete width off the screen, move it to the right
         if (groundScreenPosition.x <= -ground.boundingBox.size.width){
             
@@ -275,25 +331,41 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     }
 
 }
--(void)updateAnswerBook{
+-(void)updateQuestionBook{
 
     
-        
-        CGPoint bookWolrdPosition = [_physicsNode convertToWorldSpace:_answerBookBlue.position];
+        CGPoint bookWolrdPosition = [_physicsNode convertToWorldSpace:_questionBookBlue.position];
         CGPoint bookScreenPosition = [self convertToNodeSpace:bookWolrdPosition];
         
         // if the left corner is one complete width off the screen, move it to the right
         if (bookScreenPosition.x <= (-self.boundingBox.size.width)){
-            NSLog(@"2ok");
-            int random = 100 + arc4random() % (200 - 100);
-            if(random == 150){
+            int randomPosition = 400 + arc4random() % (2000 - 400);
+            if(_timeOfSpawnBooks%5 == 0){
                 CCNode *groundDown =  [_groundsDown objectAtIndex:1];
-                _answerBookBlue.visible = YES;
-                _answerBookBlue.position = ccp(groundDown.position.x+_groundRandomPositionX + self.boundingBox.size.width, _groundRandomPositionY);
+                _questionBookBlue.visible = YES;
+                _questionBookBlue.position = ccp(groundDown.position.x+_groundRandomPositionX + self.boundingBox.size.width*2 + randomPosition, _groundRandomPositionY);
             }
         }
         
 
+}
+-(void)updateHero:(CCTime)delta{
+    
+    _hero.position = ccp(_hero.position.x + delta * _gameData.scrollSceneSpeed, _hero.position.y);
+    
+
+    //update BOOT LIFE
+    if(_heroIsJumping)
+        _bootReadyToReload = NO;
+    
+    if (_bootTimerProgressBar.percentage == 100) {
+        _bootTimerProgressBar.opacity = 1;
+        [_bootTimerProgressBar setColor:[CCColor greenColor]];
+    }else{
+        _bootTimerProgressBar.opacity = 0.8;
+        [_bootTimerProgressBar setColor:[CCColor redColor]];
+    }
+    
 }
 
 
@@ -301,13 +373,10 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero groundDown:(CCNode *)groundDown {
     
     [_heroAnimation runAnimationsForSequenceNamed:@"Run"];
-
     
-    if(_gravityY < 0){
-        _heroIsJumping=NO;
-        _numberOfJumps = 0;
-
-    }
+    _bootReadyToReload=YES;
+    _heroIsJumping=NO;
+    _numberOfJumps = 0;
     
     return YES;
 }
@@ -315,11 +384,10 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     
     [_heroAnimation runAnimationsForSequenceNamed:@"Run"];
 
-    
-    if(_gravityY > 0){
+
         _heroIsJumping=YES;
-        _numberOfJumps = 0;
-    }
+        _numberOfJumps = 1;
+
     
     return YES;
 }
@@ -348,74 +416,19 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 }
 -(BOOL)ccPhysicsCollisionBegin:(CCPhysicsCollisionPair *)pair hero:(CCNode *)hero answerBook:(CCNode *)answerBook{
     
-    _answerBookBlue.visible = NO;
+    _questionBookBlue.visible = NO;
     _capturedBooks++;
-    
+    _gameData.lastScoreCapturedBooks++;
     return YES;
     
 }
 
 //Autenticar o jogador
 //EVERTON
--(void)authenticateLocalPlayer{
-    //Pega o usuario que esta jogando no GameCenter
-    GKLocalPlayer *localPlayer = [GKLocalPlayer localPlayer];
-    
-    /*
-     Parametros do bloco
-     The first one regards a view controller, which actually is the login
-     view controller that will automatically appear if the user is not already authenticated.
-     O segundo é o ponteiro de erro.
-     */
-    //EVERTON
-    localPlayer.authenticateHandler = ^(UIViewController *viewController, NSError *error){
-        /*
-         Se não for nulo o usuario nao está autenticado
-         */
-        //EVERTON
-        if (viewController != nil) {
-            [[CCDirector sharedDirector] presentViewController:viewController animated:YES completion:nil];
-        }else{
-            /*
-             Se se o jogador esta autenticado sera feita duas coias.
-             1- Para poder usar os recursos do Game Center, simplismente alterando gameCenterEnable
-             para sim.
-             2- Pegar o identificador do laederboard que foi criado anteriomente.
-             Nao foi usado direto no leaderboard ID pois o metodo loadDefaultLeaderboardIdentifierWithCompletionHandler é mais formal e correto.
-             */
-            //EVERTON
-
-            if ([GKLocalPlayer localPlayer].authenticated) {
-                _gameCenterEnabled=YES;
-                // Get the default leaderboard identifier.
-                [[GKLocalPlayer localPlayer] loadDefaultLeaderboardIdentifierWithCompletionHandler:^(NSString *leaderboardIdentifier,NSError *error){
-                    /*
-                     Se der erro no proximo if, sera mandado o NSError para o terminal.
-                     Se nao vamos manter o leaderboardIdentifier
-                     */
-                    if(error!=nil){
-                        NSLog(@"%@",[error localizedDescription]);
-                    }else{
-                        _leaderboardIdentifier =leaderboardIdentifier;
-                    }
-                }];
-                /*
-                 Se o usuario nao esta autenticado e a view de login é nil simplismente cancela
-                 o processo de login e desativa o gameCenterEnable
-                 */
-            }else{
-
-                _gameCenterEnabled=NO;
-            }
-        }
-
-    };
-    
-}
 -(void)handleSwipeUp:(UISwipeGestureRecognizer*)recognizer{
     
     if(_gravityY < 0)
-        if(_gravityTimer ==500)
+        if(_gravityTimer ==gravityTimeMax)
             [self heroRotate];
     
 }
@@ -428,47 +441,55 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
 -(void)handleSwipeRight:(UISwipeGestureRecognizer*)recognizer{
     
     if(_capturedBooks>0){
-        
         _capturedBooks--;
-        
-        [[CCDirector sharedDirector] pause];
-        [self addChild:[CCBReader loadAsScene:@"QuizScene"]];
-        
+        [self showQuiz];
     }
+    
+}
+
+-(void)showQuiz{
+    
+    _quiz = [QuizScene alloc];
+    _quiz.quizScene = [CCBReader loadAsScene:@"QuizScene"];
+    [[CCDirector sharedDirector] pause];
+    [self addChild:_quiz.quizScene];
     
 }
 
 -(void)countTimeinGame:(NSTimer *)theTime{
     
-    if(!_gameOver)
-        _timeInGame +=0.001;
-    int time = (int)_timeInGame;
-    if(time%5 == 0)
-        _scrollSpeed +=0.1;
     
-    //SETUP BOOT LIFE
-    if(_gravityTimer == 0){
-        [self heroRotate];
-    }
+
     if(_gravityY<0)
     {
-        if(_gravityTimer<500)
-            _gravityTimer ++;
+        if(_gravityTimer<gravityTimeMax && _bootReadyToReload==YES){
+            _gravityTimer+=5;
+            _bootTimerProgressBar.percentage+=5;
+        }
+        
     }else{
-        if(_gravityTimer>=0){
-            _gravityTimer --;
+        if(_gravityTimer <= 0){
+            [self heroRotate];
+        }
+        if(_gravityTimer>0){
+            _gravityTimer-=5;
+            _bootTimerProgressBar.percentage-=5;
         }
     }
     
     _timeScore.string = [NSString stringWithFormat:@"%.2f",_timeInGame];
     _capturedBooksScore.string = [NSString stringWithFormat:@"%d",_capturedBooks];
-    _gravityBootTimer.string = [NSString stringWithFormat:@"%.0f",_gravityTimer/5];
+    _gameData.lastScorePointAnswer = _gameData.lastScoreRightAnswer - _gameData.lastScoreWrongAnswer ;
+    _scoreAnswers.string = [NSString stringWithFormat:@"%d",_gameData.lastScorePointAnswer];
 
     
 }
+//
+//@random randomLuck to spawn broken ground
+//
 -(void)randomizeGrounds:(int)random{
     
-    if(random >= 25 && random <=75){
+    if(random >= 35 && random <=75){
         _changedGround = _groundDown3;
         _groundDown3.physicsBody.type = CCPhysicsBodyTypeDynamic;
         _groundDown3.physicsBody.density = 1;
@@ -477,7 +498,6 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         [_groundDown3.physicsBody setVelocity:CGPointMake(0, 0)];
         _groundsDown = @[_changedGround,_groundDown2];
         
-        NSLog(@"random changed %d", random);
     }else{
         
         _changedGround = _groundDown1;
@@ -497,12 +517,9 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
         [_hero.physicsBody setVelocity:CGPointMake(0,_jumpVelocityY)];
         _numberOfJumps++;
     }
-    
 
 }
 -(void)heroRotate{
-    
-
     _gravityY = -_gravityY;
     _jumpVelocityY = -_jumpVelocityY;
     _hero.rotation = _hero.rotation-180;
@@ -510,145 +527,29 @@ typedef NS_ENUM(NSInteger, DrawingOrder) {
     [self.physicsNode setGravity:CGPointMake(0, _gravityY)];
 }
 
--(void)restart{
-    CCScene *scene = [CCBReader loadAsScene:@"MainScene"];
-    [[CCDirector sharedDirector] replaceScene:scene];
 
-    
-}
 -(void)gameEnds{
     if(!_gameOver){
 
-        _scrollSpeed = 0;
+        _gameData.scrollSceneSpeed = 0;
         _gameOver = YES;
-        [self setupGameCenter];
-        [self reportScore];
-        _restartButtom.visible = YES;
-        _hero.rotation = 180.0f;
-        [_hero stopAllActions];
-        CCActionMoveBy *moveBy = [CCActionMoveBy actionWithDuration:0.2f position:ccp(-2, 2)];
-        CCActionInterval *reverseMovement = [moveBy reverse];
-        CCActionSequence *shakeSequence = [CCActionSequence actionWithArray:@[moveBy, reverseMovement]];
-        CCActionEaseBounce *bounce = [CCActionEaseBounce actionWithAction:shakeSequence];
-        [self runAction:bounce];
         
+        [_gameCenter setupGameCenter];
+        [_gameCenter reportScore];
+        
+        _gameData.lastScoreSurvivalTime = _timeInGame;
+        
+        [self heroRotate];
+        [_hero stopAllActions];
+        [_physicsNode stopAllActions];
+        [self stopAllActions];
+        [self addChild:[CCBReader loadAsScene:@"GameOverScene"]];
         
         
     }
 }
--(void)reportScore{
-    /*
-     Inicializa o GKScore, especificando no init o identificador do Leaderboard que foi
-     traga na autenticação.
-     
-     The GKScore class is responsible for handling any score-related tasks,
-     and in here we’ll use just the basics needed to do our job.
-     */
-    //EVERTON
-    GKScore *score =[[GKScore alloc]initWithLeaderboardIdentifier:@"QuizRamScores"];
-    /*
-     Logo que o objeto local do score foi inicializado é atribuido
-     o valor da propriedade o score atual e amazerna na variavel de membro score
-     */
-    //EVERTON
-    score.value=_timeInGame;
-    /*
-     Depois é invocada a reportScores:withCompletionHandler: metodo statico do GKScore
-     o primeiro parametro espera um NSArray, isso permite relatar multiplos scores,
-     por isso foi se seta o @[score], assim se cria o NSArray e coloca o score dentro dele,
-     e o bloco de erro ira mostrar no terminal qualquer erro que ocorrer
-     
-     */
-    //EVERTON
-    [GKScore reportScores:@[score] withCompletionHandler:^(NSError *error){
-        if(error!=nil){
-            NSLog(@"%@",[error localizedDescription]);
-        }
-    }];
-}
 
-/*
- Atualiza os Achievements
- */
-//EVERTON
--(void)updateAchievements{
-//    NSString *achievementIdentifier;
-//    float progressPercentage=0.0;
-//    BOOL progressInLevelAchievement=NO;
-//    
-//    
-//    /*
-//     O objeto dessa classe é inicializado informando o AchievementID
-//     */
-//    //EVERTON
-//    GKAchievement *levelAchievement=nil;
-//    GKAchievement *scoreAchievement=nil;
-//    progressInLevelAchievement = NO;
-//    if (_currentAdditionCounter == 0) {
-//        if (_level <= 3) {
-//            progressPercentage = _level * 100 / 3;
-//            achievementIdentifier = @"Achievement_Level3";
-//            progressInLevelAchievement = YES;
-//        }
-//        else if (_level < 6){
-//            progressPercentage = _level * 100 / 5;
-//            achievementIdentifier = @"Achievement_Level5Complete";
-//            progressInLevelAchievement = YES;
-//        }
-//    }
-//    
-//    [levelAchievement setShowsCompletionBanner:YES];
-//    if (progressInLevelAchievement) {
-//        levelAchievement = [[GKAchievement alloc] initWithIdentifier:achievementIdentifier];
-//        levelAchievement.percentComplete = progressPercentage;
-//        
-//        [levelAchievement setShowsCompletionBanner:YES];
-//    }
-//    
-//    switch (_score) {
-//        case 50:
-//            progressPercentage = 100;
-//            achievementIdentifier = @"Achievement_50Points";
-//            break;
-//        case 120:
-//            progressPercentage=100;
-//            achievementIdentifier = @"Achievement_120Points";
-//            break;
-//            
-//        case 180:
-//            progressPercentage=100;
-//            achievementIdentifier = @"Achievement_180Points";
-//            break;
-//        default:
-//            progressPercentage=0;
-//            break;
-//    }
-//    
-//    
-//    
-//    
-//    /*
-//     Aqui se coloca um array de achievements para ser parametro do proximo metodo
-//     */
-//    //EVERTON
-//    scoreAchievement.showsCompletionBanner=YES;
-//    scoreAchievement = [[GKAchievement alloc] initWithIdentifier:achievementIdentifier];
-//    scoreAchievement.percentComplete = progressPercentage;
-//    [scoreAchievement setShowsCompletionBanner:YES];
-//    
-//    NSArray *achievements = (progressInLevelAchievement) ? @[levelAchievement, scoreAchievement] : @[scoreAchievement];
-//    
-//    /*
-//     O metodo reportAchievement:withCompletionHandler: espera um array de GKAchievement
-//     */
-//    //EVERTON
-//    [GKAchievement reportAchievements:achievements withCompletionHandler:^(NSError *error) {
-//        if (error != nil) {
-//            NSLog(@"%@", [error localizedDescription]);
-//        }
-//    }];
-//    
-}
+
 
 
 @end

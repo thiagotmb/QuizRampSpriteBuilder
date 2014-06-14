@@ -7,9 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A041CB4194A84D100F753E3 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A041CB3194A84D100F753E3 /* GameOverScene.m */; };
+		0A041CB9194B29D300F753E3 /* GameCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A041CB7194B29D300F753E3 /* GameCenterViewController.m */; };
+		0A041CBA194B29D300F753E3 /* GameCenterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A041CB8194B29D300F753E3 /* GameCenterViewController.xib */; };
 		0A4146B6193D652800A03BFE /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
-		0A5F3FFE19489012002F39AA /* Questoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A5F3FFD19489012002F39AA /* Questoes.plist */; };
 		0A5F40021948C41E002F39AA /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F40011948C41E002F39AA /* GameData.m */; };
+		0A67129B1949DF120099DA4D /* Questoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A67129A1949DF120099DA4D /* Questoes.plist */; };
 		0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */; };
 		0A6A5C33194247E300D7999B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A6A5C32194247E300D7999B /* GameKit.framework */; };
 		0A8698011947D0E90054181F /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8698001947D0E90054181F /* MenuScene.m */; };
@@ -61,9 +64,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A5F3FFD19489012002F39AA /* Questoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Questoes.plist; path = Source/Questoes.plist; sourceTree = "<group>"; };
+		0A041CB2194A84D100F753E3 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverScene.h; path = Source/GameOverScene.h; sourceTree = "<group>"; };
+		0A041CB3194A84D100F753E3 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = Source/GameOverScene.m; sourceTree = "<group>"; };
+		0A041CB6194B29D300F753E3 /* GameCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCenterViewController.h; path = Source/GameCenterViewController.h; sourceTree = "<group>"; };
+		0A041CB7194B29D300F753E3 /* GameCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCenterViewController.m; path = Source/GameCenterViewController.m; sourceTree = "<group>"; };
+		0A041CB8194B29D300F753E3 /* GameCenterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = GameCenterViewController.xib; path = Source/GameCenterViewController.xib; sourceTree = "<group>"; };
 		0A5F40001948C41E002F39AA /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameData.h; path = Source/GameData.h; sourceTree = "<group>"; };
 		0A5F40011948C41E002F39AA /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameData.m; path = Source/GameData.m; sourceTree = "<group>"; };
+		0A67129A1949DF120099DA4D /* Questoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Questoes.plist; path = Source/Questoes.plist; sourceTree = "<group>"; };
 		0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CCParallaxNode-Extras.h"; path = "Source/CCParallaxNode-Extras.h"; sourceTree = "<group>"; };
 		0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "CCParallaxNode-Extras.m"; path = "Source/CCParallaxNode-Extras.m"; sourceTree = "<group>"; };
 		0A6A5C32194247E300D7999B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
@@ -139,19 +147,24 @@
 		B737893C1807616C0076A88C /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				0A5F3FFD19489012002F39AA /* Questoes.plist */,
+				0A67129A1949DF120099DA4D /* Questoes.plist */,
 				B737893D1807617C0076A88C /* AppDelegate.h */,
 				B737893E1807617C0076A88C /* AppDelegate.m */,
-				0A8697FF1947D0E90054181F /* MenuScene.h */,
-				0A8698001947D0E90054181F /* MenuScene.m */,
 				0A5F40001948C41E002F39AA /* GameData.h */,
 				0A5F40011948C41E002F39AA /* GameData.m */,
+				0A8697FF1947D0E90054181F /* MenuScene.h */,
+				0A8698001947D0E90054181F /* MenuScene.m */,
+				0A041CB6194B29D300F753E3 /* GameCenterViewController.h */,
+				0A041CB7194B29D300F753E3 /* GameCenterViewController.m */,
+				0A041CB8194B29D300F753E3 /* GameCenterViewController.xib */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
 				0A6A5C2F1942419000D7999B /* CCParallaxNode-Extras.h */,
 				0A6A5C301942419000D7999B /* CCParallaxNode-Extras.m */,
 				0A8698031947EBE30054181F /* QuizScene.h */,
 				0A8698041947EBE30054181F /* QuizScene.m */,
+				0A041CB2194A84D100F753E3 /* GameOverScene.h */,
+				0A041CB3194A84D100F753E3 /* GameOverScene.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -322,7 +335,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B71F5919188484E7003F4D28 /* Settings.png in Resources */,
-				0A5F3FFE19489012002F39AA /* Questoes.plist in Resources */,
+				0A67129B1949DF120099DA4D /* Questoes.plist in Resources */,
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
@@ -336,6 +349,7 @@
 				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
+				0A041CBA194B29D300F753E3 /* GameCenterViewController.xib in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -352,7 +366,9 @@
 				0A6A5C311942419000D7999B /* CCParallaxNode-Extras.m in Sources */,
 				0A4146B6193D652800A03BFE /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				0A041CB9194B29D300F753E3 /* GameCenterViewController.m in Sources */,
 				0A5F40021948C41E002F39AA /* GameData.m in Sources */,
+				0A041CB4194A84D100F753E3 /* GameOverScene.m in Sources */,
 				0A8698051947EBE30054181F /* QuizScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,7 +467,7 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/QuizRam-edbejyawdrqpfuafzfiivdsrhuzq/Build/Products/Debug-iphoneos",
@@ -488,7 +504,7 @@
 					"\"Source/libs/cocos2d-iphone/external/ObjectAL\"/**",
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/QuizRam-edbejyawdrqpfuafzfiivdsrhuzq/Build/Products/Debug-iphoneos",

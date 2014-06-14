@@ -2,7 +2,7 @@
 //  QuizScene.h
 //  QuizRam
 //
-//  Created by Thiago Bernardes on 6/10/14.
+//  Created by Augusto Reis on 6/10/14.
 //  Copyright (c) 2014 BEPiD. All rights reserved.
 //
 
@@ -27,19 +27,22 @@
 
 @property (nonatomic) CCScene *quizScene;
 
-@property(nonatomic) NSInteger disciplineNumber;
+@property(nonatomic) NSInteger questionNumber;
 @property(nonatomic) NSDictionary *chosenQuestion;
 @property(nonatomic) BOOL isTiming;
 @property(nonatomic) NSTimer *quizTimer;
-@property (nonatomic) double remainderTime;
+@property (nonatomic) float remainderTime;
 
 @property(nonatomic) GameData *gameData;
+
+@property(nonatomic) BOOL answerSelected;
 
 -(void)showQuestion;
 -(void)selectFirstAnswer;
 -(void)selectSecondAnswer;
 -(void)selectThirdAnswer;
 -(void)selectFourthAnswer;
+-(void)resumeGameScene; //Resumo MainScene 
 
 
 

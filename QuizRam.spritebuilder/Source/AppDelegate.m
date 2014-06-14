@@ -27,7 +27,6 @@
 
 #import "AppDelegate.h"
 #import "CCBuilderReader.h"
-#import "GameData.h"
 
 @implementation AppController
 
@@ -54,7 +53,6 @@
     //[cocos2dSetup setObject:kEAGLColorFormatRGB565 forKey:CCConfigPixelFormat];
     
     [self setupCocos2dWithOptions:cocos2dSetup];
-    GameData *gameData = [GameData sharedManager];
     
     return YES;
 }

@@ -149,7 +149,7 @@
 						<key>value</key>
 						<array>
 							<real>0.5</real>
-							<real>0.51875001192092896</real>
+							<real>0.5</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -173,8 +173,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>1.2000000476837158</real>
+							<real>0.89999997615814209</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -197,8 +197,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>150</real>
+							<real>75</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -231,7 +231,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Jogar</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -243,7 +243,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Jogar-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -267,7 +267,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Jogar-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -291,7 +291,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Jogar-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -310,7 +310,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Jogar-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -471,8 +471,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.80000001192092896</real>
-							<real>0.12999999523162842</real>
+							<real>0.79000002145767212</real>
+							<real>0.11500000208616257</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -496,8 +496,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.89999997615814209</real>
+							<real>0.60000002384185791</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -520,8 +520,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>150</real>
+							<real>70</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -554,7 +554,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Ranking</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -566,7 +566,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Ranking-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -590,7 +590,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Ranking-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -614,7 +614,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Ranking-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -633,7 +633,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Ranking-1.png</string>
 						</array>
 					</dict>
 					<dict>
@@ -792,8 +792,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>0.25</real>
-							<real>0.12999999523162842</real>
+							<real>0.23499999940395355</real>
+							<real>0.11500000208616257</real>
 							<integer>0</integer>
 							<integer>2</integer>
 							<integer>2</integer>
@@ -817,8 +817,8 @@
 						<string>ScaleLock</string>
 						<key>value</key>
 						<array>
-							<real>1</real>
-							<real>1</real>
+							<real>0.89999997615814209</real>
+							<real>0.60000002384185791</real>
 							<false/>
 							<integer>0</integer>
 						</array>
@@ -841,8 +841,8 @@
 						<string>Size</string>
 						<key>value</key>
 						<array>
-							<real>40</real>
-							<real>40</real>
+							<real>150</real>
+							<real>70</real>
 							<integer>0</integer>
 							<integer>0</integer>
 						</array>
@@ -875,7 +875,7 @@
 						<string>String</string>
 						<key>value</key>
 						<array>
-							<string>Tutorial</string>
+							<string></string>
 							<false/>
 						</array>
 					</dict>
@@ -887,7 +887,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Tutorial-1.psd</string>
 						</array>
 					</dict>
 					<dict>
@@ -911,7 +911,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Tutorial-1.psd</string>
 						</array>
 					</dict>
 					<dict>
@@ -935,7 +935,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Tutorial-1.psd</string>
 						</array>
 					</dict>
 					<dict>
@@ -954,7 +954,7 @@
 						<key>value</key>
 						<array>
 							<string></string>
-							<string></string>
+							<string>Background/Botao - Tutorial-1.psd</string>
 						</array>
 					</dict>
 					<dict>

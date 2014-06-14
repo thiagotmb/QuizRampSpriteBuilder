@@ -7,18 +7,12 @@
 //
 
 #import "CCNode.h"
-#import "QuizScene.h"
-#import "GameData.h"
 
 @interface MenuScene : CCNode
 
 @property (nonatomic) CCButton* play;
 @property (nonatomic) CCButton* tutorial;
 @property (nonatomic) CCButton* ranking;
-
-@property (nonatomic) QuizScene *quiz;
-@property (nonatomic) GameData *gameData;
-
 
 -(void)playGame;
 -(void)playTutorial;
