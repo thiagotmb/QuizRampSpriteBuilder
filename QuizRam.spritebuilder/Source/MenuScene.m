@@ -12,7 +12,7 @@
 
 -(void)playGame{
     
-    CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:1];
+    CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:0.5];
     CCScene *gameScene = [CCBReader loadAsScene:@"MainScene"];
     [[CCDirector sharedDirector] replaceScene:gameScene withTransition:transition];
     
@@ -25,6 +25,10 @@
 
 -(void)showRanking{
    
+    
+    CCTransition *transition = [CCTransition transitionPushWithDirection:CCTransitionDirectionLeft duration:0.5];
+    CCScene *rankingScene = [CCBReader loadAsScene:@"RankingScene"];
+    [[CCDirector sharedDirector] replaceScene:rankingScene withTransition:transition];
 }
 
 

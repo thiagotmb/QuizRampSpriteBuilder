@@ -16,7 +16,6 @@
 
 
 @property (nonatomic) GameData *gameData;
-@property (nonatomic) GameCenterViewController* gameCenter;
 
 @property (nonatomic) CCPhysicsNode *physicsNode;
 @property (nonatomic) CGFloat gravityY;
@@ -34,8 +33,7 @@
 @property (nonatomic) CCButton *menuButton;
 @property (nonatomic) BOOL gameOver;
 @property (nonatomic) CCLabelTTF *timeScore;
-@property (nonatomic) float timeInGame;
-@property (nonatomic) NSTimer *gameTimeCount;
+@property (nonatomic) unsigned int timeInGame;
 
 @property (nonatomic) CCSprite *hero;
 @property (nonatomic) CCBAnimationManager* heroAnimation;
@@ -98,7 +96,7 @@
 -(void)handleSwipeRight:(UISwipeGestureRecognizer*)recognizer;
 
 -(void)showQuiz;
--(void)countTimeinGame:(NSTimer*)theTime;
+-(void)countTimeinGame:(CCTime)theTime;
 -(void)randomizeGrounds:(int)random;
 
 -(void)heroJump;

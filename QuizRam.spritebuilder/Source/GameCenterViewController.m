@@ -21,28 +21,21 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        _gameData = [GameData sharedManager];
+
     }
     return self;
 }
 
 - (void)viewDidLoad{
     [super viewDidLoad];
-    _gameData = [GameData sharedManager];
     // Do any additional setup after loading the view from its nib.
 
 //    UITableView *t = [[UITableView alloc]init];
 //    [t registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
     
 }
--(void)setupRanking{
-    
-    [self retrieveTopTenScores:_survivalTimeScores withIdentifier:@"SurvivalTime"];
-    [self retrieveTopTenScores:_pointAnswerScores withIdentifier:@"PointAnswer"];
-    [self retrieveTopTenScores:_capturedBooksScore withIdentifier:@"CapturedBooks"];
-    [self retrieveTopTenScores:_rightAnswerScores withIdentifier:@"RightAnswer"];
-    [self retrieveTopTenScores:_wrongAnswersScores withIdentifier:@"WrongAnswer"];
 
-}
 
 -(NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     
@@ -56,31 +49,78 @@
     return cell;
 }
 
-- (void) retrieveTopTenScores:(NSArray*)localLeaderbordArray withIdentifier:(NSString*)leaderborderIdentifier{
-    
+- (void) retrieveTopScore:(NSString*)leaderborderIdentifier viewIn:(CCLabelTTF*)label inTime:(GKLeaderboardTimeScope)timeScope forPosition:(NSInteger)position{
+
     GKLeaderboard *leaderbordRequested = [[GKLeaderboard alloc] init];
-    
     //Verify if the leaderboard is downloaded
     if (leaderbordRequested != nil)
     {
         leaderbordRequested.playerScope = GKLeaderboardPlayerScopeGlobal;
-        leaderbordRequested.timeScope = GKLeaderboardTimeScopeToday;
+        leaderbordRequested.timeScope = GKLeaderboardPlayerScopeGlobal;
         leaderbordRequested.identifier = leaderborderIdentifier;
         leaderbordRequested.range = NSMakeRange(1,10);
+        
         [leaderbordRequested loadScoresWithCompletionHandler: ^(NSArray *scores, NSError *error) {
+
             if (error != nil)
             {
                 // Handle the error.
             }
             if (scores != nil)
             {
-                (void)[localLeaderbordArray initWithArray:scores];
+                if(scores.count < position)
+                    label.string = @" ";
+                else{
+                    GKScore *score= [scores objectAtIndex:position-1];
+
+                    if([label.name isEqual:@"Name"]){
+                        label.string = [NSString stringWithFormat:@"%@",score.player.displayName];
+                    }else{
+                        if([label.name  isEqual: @"TimeScore"])
+                            label.string = [NSString stringWithFormat:@"%lld ms",score.value];
+                        else
+                            label.string = [NSString stringWithFormat:@"%lld",score.value];
+                    }
+                }
             }
         }];
     }
+
 }
 
+- (void) retrieveLocalPlayerScore:(NSString*)leaderborderIdentifier viewIn:(CCLabelTTF*)label inTime:(GKLeaderboardTimeScope)timeScope{
+    
+    GKLeaderboard *leaderbordRequested = [[GKLeaderboard alloc] init];
+    //Verify if the leaderboard is downloaded
+    if (leaderbordRequested != nil)
+    {
+        leaderbordRequested.playerScope = GKLeaderboardPlayerScopeGlobal;
+        leaderbordRequested.timeScope = timeScope;
+        leaderbordRequested.identifier = leaderborderIdentifier;
+        leaderbordRequested.range = NSMakeRange(1,1);
+        
+        [leaderbordRequested loadScoresWithCompletionHandler: ^(NSArray *scores, NSError *error) {
+            
+            if (error != nil)
+            {
+                // Handle the error.
+            }
+            if (scores != nil)
+            {
+                if([label.name isEqual:@"Position"]){
+                    label.string = [NSString stringWithFormat:@"%d",leaderbordRequested.localPlayerScore.rank];
+                }else{
+                    if([label.name  isEqual: @"TimeScore"])
+                        label.string = [NSString stringWithFormat:@"%lld ms",leaderbordRequested.localPlayerScore.value];
+                    else
+                        label.string = [NSString stringWithFormat:@"%lld",leaderbordRequested.localPlayerScore.value];
+                }
 
+            }
+        }];
+    }
+    
+}
 
 
 -(void)didReceiveMemoryWarning{
@@ -114,7 +154,7 @@
         //EVERTON
         
         if (viewController != nil){
-            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Game Center" message:@"Realizar Login? Poderá compartilhar seu score com seus amigos e ranking mundial" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Fazer Login", nil];
+            UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"Game Center" message:@"Logue para obter Conquistas e acesso ao ranking mundial!" delegate:self cancelButtonTitle:@"Cancelar" otherButtonTitles:@"Logar", nil];
             
             [alert show];
             _gameCenter = viewController;
@@ -168,6 +208,8 @@
     //EVERTON
     GKScore *survivalScore =[[GKScore alloc]initWithLeaderboardIdentifier:@"SurvivalTime"];
     survivalScore.value=_gameData.lastScoreSurvivalTime;
+    NSLog(@" ultimo score %u",_gameData.lastScoreSurvivalTime);
+
     
     GKScore *capturedBooks =[[GKScore alloc]initWithLeaderboardIdentifier:@"CapturedBooks"];
     capturedBooks.value=_gameData.lastScoreCapturedBooks;
@@ -200,7 +242,9 @@
     
     if(buttonIndex ==1)
         [[CCDirector sharedDirector] presentViewController:_gameCenter animated:YES completion:nil];
+
 }
+
 
 
 

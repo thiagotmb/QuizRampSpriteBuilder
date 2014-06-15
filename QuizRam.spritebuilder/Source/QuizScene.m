@@ -83,6 +83,7 @@ static const float timeIntervalForCounting = 0.05;
     _remainderTime = 180;
     _isTiming = YES;
     _quizTimer = [NSTimer scheduledTimerWithTimeInterval:timeIntervalForCounting target:self selector:@selector(initQuizTimerCounting:) userInfo:nil repeats:YES];
+    
     _timerLabel.string = [NSString stringWithFormat:@"%.0f",_remainderTime];
 
     
@@ -145,6 +146,8 @@ static const float timeIntervalForCounting = 0.05;
 
 -(void)selectFirstAnswer{
     _answerSelected = YES;
+    [_quizTimer invalidate];
+
     NSString *correctAnswer = [[NSString alloc]initWithString:[_chosenQuestion valueForKey:@"Resposta"]];
     NSString *chosenAnswer = @"Alternativa1";
     if ([chosenAnswer compare:correctAnswer]==NSOrderedSame) {
@@ -166,6 +169,7 @@ static const float timeIntervalForCounting = 0.05;
 }
 -(void)selectSecondAnswer{
     _answerSelected = YES;
+    [_quizTimer invalidate];
 
     NSString *correctAnswer = [[NSString alloc]initWithString:[_chosenQuestion valueForKey:@"Resposta"]];
     NSString *chosenAnswer = @"Alternativa2";
@@ -187,6 +191,7 @@ static const float timeIntervalForCounting = 0.05;
 }
 -(void)selectThirdAnswer{
     _answerSelected = YES;
+    [_quizTimer invalidate];
 
     NSString *correctAnswer = [[NSString alloc]initWithString:[_chosenQuestion valueForKey:@"Resposta"]];
     NSString *chosenAnswer = @"Alternativa3";
@@ -210,6 +215,7 @@ static const float timeIntervalForCounting = 0.05;
 }
 -(void)selectFourthAnswer{
     _answerSelected = YES;
+    [_quizTimer invalidate];
 
     NSString *correctAnswer = [[NSString alloc]initWithString:[_chosenQuestion valueForKey:@"Resposta"]];
     NSString *chosenAnswer = @"Alternativa4";
@@ -233,10 +239,11 @@ static const float timeIntervalForCounting = 0.05;
 
 -(void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex{
     [self setupScores];
-    [self removeFromParentAndCleanup:YES];
-    
     NSTimer *delayTimeResume;
     delayTimeResume = [NSTimer scheduledTimerWithTimeInterval:1 target:self selector:@selector(resumeGameScene) userInfo:nil repeats:YES];
+    [self removeFromParentAndCleanup:YES];
+    
+
 
 }
 -(void)setupScores{

@@ -12,12 +12,11 @@
 @interface GameData : CCNode
 
 @property (nonatomic) CGFloat scrollSceneSpeed;
-
 @property (nonatomic) unsigned int numberOfPlays; //number of player play the game
 
 
 //Scores of the match
-@property (nonatomic) float lastScoreSurvivalTime;
+@property (nonatomic) unsigned int lastScoreSurvivalTime;
 @property (nonatomic) unsigned int lastScoreCapturedBooks;
 @property (nonatomic) unsigned int lastScoreWrongAnswer;
 @property (nonatomic) unsigned int lastScoreRightAnswer;
@@ -32,10 +31,6 @@
 
 @property (nonatomic) BOOL isCorrectAnswer; //Verify if player tick the correct answer in Quiz
 @property (nonatomic) float timeOfAnswer;
-@property (nonatomic) NSArray* allTimeOfAnswer;
-@property (nonatomic) unsigned int numberOfAnswers;
-@property (nonatomic) float averageTimeOfAnswers;
-
 
 +(id)sharedManager;
 

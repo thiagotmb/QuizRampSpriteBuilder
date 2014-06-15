@@ -8,10 +8,12 @@
 
 #import "CCNode.h"
 #import "GameData.h"
+#import "GameCenterViewController.h"
 
 @interface GameOverScene : CCNode
 
 
+@property (nonatomic) GameCenterViewController* gameCenter;
 @property (nonatomic) GameData *gameData;
 @property (nonatomic) CCLabelTTF *instantTimeScore;
 @property (nonatomic) CCLabelTTF *instantAnswerScore;

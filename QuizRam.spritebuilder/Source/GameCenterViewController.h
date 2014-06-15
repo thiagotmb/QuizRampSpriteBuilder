@@ -21,18 +21,21 @@
 @property (nonatomic) UIViewController* gameCenter;
 @property (nonatomic) BOOL readyToLogin;
 @property (nonatomic, strong) NSString *leaderboardIdentifier;
+@property NSInteger test;
 
 //Scores to generate local ranking
 @property (nonatomic) NSArray* survivalTimeScores;
-@property (nonatomic) NSArray* pointAnswerScores;
-@property (nonatomic) NSArray* capturedBooksScore;
-@property (nonatomic) NSArray* rightAnswerScores;
-@property (nonatomic) NSArray* wrongAnswersScores;
+@property (nonatomic) NSMutableArray* pointAnswerScores;
+@property (nonatomic) NSMutableArray* capturedBooksScore;
+@property (nonatomic) NSMutableArray* rightAnswerScores;
+@property (nonatomic) NSMutableArray* wrongAnswersScores;
 
+@property (nonatomic) int value;
 
 -(void)setupGameCenter;
 -(void)reportScore;
--(void)retrieveTopTenScores:(NSArray*)localLeaderbordArray withIdentifier:(NSString*)leaderborderIdentifier; //Download scores of game center
+-(void)retrieveTopScore:(NSString*)leaderborderIdentifier viewIn:(CCLabelTTF*)label inTime:(GKLeaderboardTimeScope)timeScope forPosition:(NSInteger)position; //Download scores of game center
+-(void)retrieveLocalPlayerScore:(NSString*)leaderborderIdentifier viewIn:(CCLabelTTF*)label inTime:(GKLeaderboardTimeScope)timeScope;
 -(void)updateAchievements;
 
 @end

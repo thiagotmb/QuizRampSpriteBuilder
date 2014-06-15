@@ -28,6 +28,16 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A749D4B194C9AFD00C45D7D"
+               BuildableName = "QuizRam Tests.xctest"
+               BlueprintName = "QuizRam Tests"
+               ReferencedContainer = "container:QuizRam.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

@@ -83,7 +83,6 @@ static const unsigned int gravityTimeMax = 100;
     _gameData.scrollSceneSpeed = 300;
     _gameData.scrollSceneSpeed = 300;
     
-    _gameCenter = [[GameCenterViewController alloc] init];
     
     
     _gravityY = -500;
@@ -114,7 +113,7 @@ static const unsigned int gravityTimeMax = 100;
     [_backgroundNode addChild:_background4 z:1 parallaxRatio:backGround2Speed positionOffset:ccp(_background3.boundingBox.size.width,_background4.position.y)];
     [self addChild:_backgroundNode z:-1];
     
-    _gameTimeCount = [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(countTimeinGame:) userInfo:nil repeats:YES];
+    [self schedule:@selector(countTimeinGame:) interval:0.05];
 
     
 }
@@ -227,19 +226,7 @@ static const unsigned int gravityTimeMax = 100;
     
     [self updateParallaxBackground:delta];
     
-    //If game no ends increment times
-    if(!_gameOver){
-        _timeInGame +=0.015;
-        _timeOfSpawnBooks++;
-    }
-    _gameData.lastScoreSurvivalTime = _timeInGame;
-    
-    //Increment scroll speed if passed five seconds
-    int time = (int)_timeInGame;
-    if(time%5 == 0){
-        _gameData.scrollSceneSpeed +=2;
-       
-    }
+
     
     
 }
@@ -456,7 +443,7 @@ static const unsigned int gravityTimeMax = 100;
     
 }
 
--(void)countTimeinGame:(NSTimer *)theTime{
+-(void)countTimeinGame:(CCTime )theTime{
     
     
 
@@ -477,7 +464,21 @@ static const unsigned int gravityTimeMax = 100;
         }
     }
     
-    _timeScore.string = [NSString stringWithFormat:@"%.2f",_timeInGame];
+    //If game no ends increment times
+    if(!_gameOver){
+        _timeInGame +=theTime*100;
+        _timeOfSpawnBooks++;
+    }
+    _gameData.lastScoreSurvivalTime = _timeInGame;
+    
+    //Increment scroll speed if passed five seconds
+    
+    if(_timeInGame%5 == 0){
+        _gameData.scrollSceneSpeed +=1;
+        
+    }
+    
+    _timeScore.string = [NSString stringWithFormat:@"%d",_timeInGame];
     _capturedBooksScore.string = [NSString stringWithFormat:@"%d",_capturedBooks];
     _gameData.lastScorePointAnswer = _gameData.lastScoreRightAnswer - _gameData.lastScoreWrongAnswer ;
     _scoreAnswers.string = [NSString stringWithFormat:@"%d",_gameData.lastScorePointAnswer];
@@ -534,8 +535,8 @@ static const unsigned int gravityTimeMax = 100;
         _gameData.scrollSceneSpeed = 0;
         _gameOver = YES;
         
-        [_gameCenter setupGameCenter];
-        [_gameCenter reportScore];
+        
+    
         
         _gameData.lastScoreSurvivalTime = _timeInGame;
         

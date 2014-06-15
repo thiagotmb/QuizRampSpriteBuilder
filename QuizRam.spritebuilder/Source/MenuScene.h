@@ -7,6 +7,7 @@
 //
 
 #import "CCNode.h"
+#import "RankingScene.h"
 
 @interface MenuScene : CCNode
 

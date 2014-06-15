@@ -16,9 +16,21 @@
 }
 -(void)setupScores{
     _gameData = [GameData sharedManager];
-    _instantTimeScore.string =[NSString stringWithFormat:@"%.2f",_gameData.lastScoreSurvivalTime];
+    _instantTimeScore.string =[NSString stringWithFormat:@"%d ms",_gameData.lastScoreSurvivalTime];
     _instantAnswerScore.string =[NSString stringWithFormat:@"%d",_gameData.lastScorePointAnswer];
     _instantCollectedBooksScore.string =[NSString stringWithFormat:@"%d",_gameData.lastScoreCapturedBooks];
+
+    
+    _gameCenter = [[GameCenterViewController alloc] init];
+    //[_gameCenter retrieveTopTenScores:@"SurvivalTime"];
+    
+    [_gameCenter setupGameCenter];
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_bestTimeScore inTime:GKLeaderboardTimeScopeAllTime];
+    [_gameCenter retrieveLocalPlayerScore:@"PointAnswer" viewIn:_bestAnswerScore inTime:GKLeaderboardTimeScopeAllTime];
+    [_gameCenter retrieveLocalPlayerScore:@"CapturedBooks" viewIn:_bestCollectedBooksScore inTime:GKLeaderboardTimeScopeAllTime];
+    [_gameCenter reportScore];
+
+
 }
 
 -(void)restartGame{
