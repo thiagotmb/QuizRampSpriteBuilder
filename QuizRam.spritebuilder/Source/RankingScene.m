@@ -31,16 +31,7 @@
     _clock.visible = YES;
     
     
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerAllTimePosition inTime:GKLeaderboardTimeScopeAllTime];
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerLastWeekPosition inTime:GKLeaderboardTimeScopeWeek];
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerTodayPosition inTime:GKLeaderboardTimeScopeToday];
-    _localPlayerAllTimeScore.name = @"TimeScore";
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerAllTimeScore inTime:GKLeaderboardTimeScopeAllTime];
-    _localPlayerLastWeekScore.name = @"TimeScore";
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerLastWeekScore inTime:GKLeaderboardTimeScopeWeek];
-    _localPlayerTodayScore.name = @"TimeScore";
-    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerTodayScore inTime:GKLeaderboardTimeScopeToday];
-
+    
     
     [_gameCenter retrieveTopScore:@"SurvivalTime" viewIn:_firstAllTimeName inTime:GKLeaderboardTimeScopeAllTime forPosition:1];
     [_gameCenter retrieveTopScore:@"SurvivalTime" viewIn:_firstLastWeekName inTime:GKLeaderboardTimeScopeWeek forPosition:1];
@@ -93,6 +84,17 @@
     [_gameCenter retrieveTopScore:@"SurvivalTime" viewIn:_fiveLastWeekScore inTime:GKLeaderboardTimeScopeWeek forPosition:5];
     _fiveTodayScore.name = @"TimeScore";
     [_gameCenter retrieveTopScore:@"SurvivalTime" viewIn:_fiveTodayScore inTime:GKLeaderboardTimeScopeToday forPosition:5];
+    
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerAllTimePosition inTime:GKLeaderboardTimeScopeAllTime];
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerLastWeekPosition inTime:GKLeaderboardTimeScopeWeek];
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerTodayPosition inTime:GKLeaderboardTimeScopeToday];
+    _localPlayerAllTimeScore.name = @"TimeScore";
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerAllTimeScore inTime:GKLeaderboardTimeScopeAllTime];
+    _localPlayerLastWeekScore.name = @"TimeScore";
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerLastWeekScore inTime:GKLeaderboardTimeScopeWeek];
+    _localPlayerTodayScore.name = @"TimeScore";
+    [_gameCenter retrieveLocalPlayerScore:@"SurvivalTime" viewIn:_localPlayerTodayScore inTime:GKLeaderboardTimeScopeToday];
+
     
 }
 

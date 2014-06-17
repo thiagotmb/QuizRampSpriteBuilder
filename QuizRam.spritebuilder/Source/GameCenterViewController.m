@@ -55,10 +55,9 @@
     //Verify if the leaderboard is downloaded
     if (leaderbordRequested != nil)
     {
-        leaderbordRequested.playerScope = GKLeaderboardPlayerScopeGlobal;
         leaderbordRequested.timeScope = GKLeaderboardPlayerScopeGlobal;
         leaderbordRequested.identifier = leaderborderIdentifier;
-        leaderbordRequested.range = NSMakeRange(1,10);
+        leaderbordRequested.range = NSMakeRange(1,5);
         
         [leaderbordRequested loadScoresWithCompletionHandler: ^(NSArray *scores, NSError *error) {
 
@@ -68,10 +67,10 @@
             }
             if (scores != nil)
             {
-                if(scores.count < position)
-                    label.string = @" ";
-                else{
+                if(scores.count < position){
+                    label.string = @" ";                }else{
                     GKScore *score= [scores objectAtIndex:position-1];
+                    NSLog(@"%@",scores);
 
                     if([label.name isEqual:@"Name"]){
                         label.string = [NSString stringWithFormat:@"%@",score.player.displayName];
@@ -108,7 +107,7 @@
             if (scores != nil)
             {
                 if([label.name isEqual:@"Position"]){
-                    label.string = [NSString stringWithFormat:@"%d",leaderbordRequested.localPlayerScore.rank];
+                    label.string = [NSString stringWithFormat:@"%ld",(long)leaderbordRequested.localPlayerScore.rank];
                 }else{
                     if([label.name  isEqual: @"TimeScore"])
                         label.string = [NSString stringWithFormat:@"%lld ms",leaderbordRequested.localPlayerScore.value];

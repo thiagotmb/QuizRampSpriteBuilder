@@ -110,15 +110,10 @@
 		<key>ccbResources</key>
 		<dict>
 			<key>previewFolderHidden</key>
-			<true/>
+			<false/>
 		</dict>
 		<key>ccbResources/ccbButtonHighlighted.png</key>
-		<dict>
-			<key>scaleFrom</key>
-			<integer>2</integer>
-			<key>tabletScale</key>
-			<integer>1</integer>
-		</dict>
+		<dict/>
 		<key>ccbResources/ccbButtonNormal.png</key>
 		<dict>
 			<key>scaleFrom</key>

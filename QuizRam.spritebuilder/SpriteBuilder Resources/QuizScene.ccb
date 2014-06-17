@@ -114,7 +114,7 @@
 								<key>type</key>
 								<string>FontTTF</string>
 								<key>value</key>
-								<string>Courier</string>
+								<string>Helvetica</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -659,7 +659,7 @@
 								<key>type</key>
 								<string>FontTTF</string>
 								<key>value</key>
-								<string>Courier</string>
+								<string>Helvetica</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -1196,7 +1196,7 @@
 								<key>type</key>
 								<string>FontTTF</string>
 								<key>value</key>
-								<string>Courier</string>
+								<string>Helvetica</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -1733,7 +1733,7 @@
 								<key>type</key>
 								<string>FontTTF</string>
 								<key>value</key>
-								<string>Courier</string>
+								<string>Helvetica</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -2270,7 +2270,7 @@
 								<key>type</key>
 								<string>FontTTF</string>
 								<key>value</key>
-								<string>Courier</string>
+								<string>Helvetica</string>
 							</dict>
 							<dict>
 								<key>name</key>
@@ -2845,6 +2845,8 @@
 								</array>
 							</dict>
 						</array>
+						<key>selected</key>
+						<true/>
 					</dict>
 				</array>
 				<key>customClass</key>
@@ -4324,8 +4326,6 @@
 				</array>
 			</dict>
 		</array>
-		<key>selected</key>
-		<true/>
 	</dict>
 	<key>notes</key>
 	<array/>
