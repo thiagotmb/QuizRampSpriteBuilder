@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SequencerJoints</key>
+	<dict>
+		<key>hidden</key>
+		<false/>
+		<key>locked</key>
+		<false/>
+	</dict>
+	<key>UUID</key>
+	<integer>7</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -14,21 +23,95 @@
 	<string>CocosBuilder</string>
 	<key>fileVersion</key>
 	<integer>4</integer>
+	<key>gridspaceHeight</key>
+	<integer>64</integer>
+	<key>gridspaceWidth</key>
+	<integer>64</integer>
 	<key>guides</key>
+	<array/>
+	<key>joints</key>
 	<array/>
 	<key>jsControlled</key>
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
+		<key>UUID</key>
+		<integer>1</integer>
 		<key>baseClass</key>
 		<string>CCSprite</string>
 		<key>children</key>
 		<array>
 			<dict>
+				<key>UUID</key>
+				<integer>2</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
 					<dict>
+						<key>position</key>
+						<dict>
+							<key>keyframes</key>
+							<array>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.0</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>9.4280004501342773</real>
+										<real>-4.4279999732971191</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.10000000149011612</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>9.4280004501342773</real>
+										<real>-4.4279999732971191</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.23333333432674408</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>9.4280004501342773</real>
+										<real>-4.4279999732971191</real>
+									</array>
+								</dict>
+							</array>
+							<key>name</key>
+							<string>position</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
 						<key>rotation</key>
 						<dict>
 							<key>keyframes</key>
@@ -219,7 +302,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -281,7 +364,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>50</real>
+						<real>-50</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -308,12 +391,81 @@
 						</array>
 					</dict>
 				</array>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>3</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
-					<dict/>
+					<dict>
+						<key>position</key>
+						<dict>
+							<key>keyframes</key>
+							<array>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.0</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>10.368000984191895</real>
+										<real>-48.384002685546875</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.10000000149011612</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>10.368000984191895</real>
+										<real>-48.384002685546875</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.23333333432674408</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>10.368000984191895</real>
+										<real>-48.384002685546875</real>
+									</array>
+								</dict>
+							</array>
+							<key>name</key>
+							<string>position</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
+					</dict>
 					<key>1</key>
 					<dict>
 						<key>position</key>
@@ -448,7 +600,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -537,12 +689,82 @@
 						</array>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>4</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
 					<dict>
+						<key>position</key>
+						<dict>
+							<key>keyframes</key>
+							<array>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.0</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>-0.94000130891799927</real>
+										<real>-6.1559991836547852</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.10000000149011612</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>-0.94000130891799927</real>
+										<real>-6.1559991836547852</real>
+									</array>
+								</dict>
+								<dict>
+									<key>easing</key>
+									<dict>
+										<key>type</key>
+										<integer>1</integer>
+									</dict>
+									<key>name</key>
+									<string>position</string>
+									<key>time</key>
+									<real>0.23333333432674408</real>
+									<key>type</key>
+									<integer>3</integer>
+									<key>value</key>
+									<array>
+										<real>-0.94000130891799927</real>
+										<real>-6.1559991836547852</real>
+									</array>
+								</dict>
+							</array>
+							<key>name</key>
+							<string>position</string>
+							<key>type</key>
+							<integer>3</integer>
+						</dict>
 						<key>rotation</key>
 						<dict>
 							<key>keyframes</key>
@@ -733,7 +955,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -795,7 +1017,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>0.0</real>
+						<real>100</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -822,8 +1044,12 @@
 						</array>
 					</dict>
 				</array>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>5</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
@@ -1123,7 +1349,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -1146,8 +1372,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
+							<real>110</real>
 							<real>20</real>
-							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1185,7 +1411,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>0.0</real>
+						<real>10</real>
 					</dict>
 					<dict>
 						<key>name</key>
@@ -1212,8 +1438,12 @@
 						</array>
 					</dict>
 				</array>
+				<key>seqExpanded</key>
+				<true/>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>6</integer>
 				<key>animatedProperties</key>
 				<dict>
 					<key>0</key>
@@ -1522,7 +1752,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -1545,8 +1775,8 @@
 						<string>Position</string>
 						<key>value</key>
 						<array>
-							<real>60</real>
-							<real>25</real>
+							<real>-40</real>
+							<real>0.0</real>
 							<integer>0</integer>
 							<integer>0</integer>
 							<integer>0</integer>
@@ -1584,7 +1814,7 @@
 						<key>type</key>
 						<string>Degrees</string>
 						<key>value</key>
-						<real>5</real>
+						<real>0.0</real>
 					</dict>
 					<dict>
 						<key>baseValue</key>
@@ -1636,7 +1866,7 @@
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -1751,7 +1981,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.066666670143604279</real>
+			<real>0.23333333432674408</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
@@ -1807,5 +2037,7 @@
 	</array>
 	<key>stageBorder</key>
 	<integer>3</integer>
+	<key>stageColor</key>
+	<integer>2</integer>
 </dict>
 </plist>

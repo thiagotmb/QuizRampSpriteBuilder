@@ -18,6 +18,7 @@
 		0A749D59194C9B4700C45D7D /* GameCenterViewControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A749D58194C9B4700C45D7D /* GameCenterViewControllerTest.m */; };
 		0A8698011947D0E90054181F /* MenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8698001947D0E90054181F /* MenuScene.m */; };
 		0A8698051947EBE30054181F /* QuizScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8698041947EBE30054181F /* QuizScene.m */; };
+		0AD3273F195518DC00770B7C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AD3273E195518DC00770B7C /* GLKit.framework */; };
 		0AF311EB194CEAA30072646D /* RankingScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF311EA194CEAA30072646D /* RankingScene.m */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
@@ -91,6 +92,7 @@
 		0A8698001947D0E90054181F /* MenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MenuScene.m; path = Source/MenuScene.m; sourceTree = "<group>"; };
 		0A8698031947EBE30054181F /* QuizScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QuizScene.h; path = Source/QuizScene.h; sourceTree = "<group>"; };
 		0A8698041947EBE30054181F /* QuizScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QuizScene.m; path = Source/QuizScene.m; sourceTree = "<group>"; };
+		0AD3273E195518DC00770B7C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		0AF311E9194CEAA30072646D /* RankingScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RankingScene.h; path = Source/RankingScene.h; sourceTree = "<group>"; };
 		0AF311EA194CEAA30072646D /* RankingScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RankingScene.m; path = Source/RankingScene.m; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD3273F195518DC00770B7C /* GLKit.framework in Frameworks */,
 				0A6A5C33194247E300D7999B /* GameKit.framework in Frameworks */,
 				B737898A1807642B0076A88C /* libcocos2d.a in Frameworks */,
 				B77F1B3217B978D7009739AE /* QuartzCore.framework in Frameworks */,
@@ -263,6 +266,7 @@
 		B77F1B3017B978D7009739AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0AD3273E195518DC00770B7C /* GLKit.framework */,
 				0A6A5C32194247E300D7999B /* GameKit.framework */,
 				B7B3713D180358F1007369CC /* libObjectiveChipmunk.a */,
 				B77F1B3117B978D7009739AE /* QuartzCore.framework */,

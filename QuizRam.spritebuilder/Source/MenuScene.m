@@ -20,7 +20,7 @@
 
 -(void)playTutorial{
     
-    
+    NSLog(@"play tutorial");
 }
 
 -(void)showRanking{

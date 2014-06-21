@@ -2,6 +2,15 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>SequencerJoints</key>
+	<dict>
+		<key>hidden</key>
+		<false/>
+		<key>locked</key>
+		<false/>
+	</dict>
+	<key>UUID</key>
+	<integer>38</integer>
 	<key>centeredOrigin</key>
 	<false/>
 	<key>currentResolution</key>
@@ -14,6 +23,10 @@
 	<string>CocosBuilder</string>
 	<key>fileVersion</key>
 	<integer>4</integer>
+	<key>gridspaceHeight</key>
+	<integer>64</integer>
+	<key>gridspaceWidth</key>
+	<integer>64</integer>
 	<key>guides</key>
 	<array>
 		<dict>
@@ -21,22 +34,32 @@
 			<integer>0</integer>
 			<key>position</key>
 			<real>-178</real>
+			<key>type</key>
+			<integer>0</integer>
 		</dict>
 	</array>
+	<key>joints</key>
+	<array/>
 	<key>jsControlled</key>
 	<false/>
 	<key>nodeGraph</key>
 	<dict>
+		<key>UUID</key>
+		<integer>1</integer>
 		<key>baseClass</key>
 		<string>CCNode</string>
 		<key>children</key>
 		<array>
 			<dict>
+				<key>UUID</key>
+				<integer>2</integer>
 				<key>baseClass</key>
 				<string>CCNode</string>
 				<key>children</key>
 				<array>
 					<dict>
+						<key>UUID</key>
+						<integer>3</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -124,6 +147,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>4</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -211,6 +236,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>5</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -298,6 +325,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>6</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -392,7 +421,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -457,11 +486,15 @@
 				</array>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>7</integer>
 				<key>baseClass</key>
 				<string>CCPhysicsNode</string>
 				<key>children</key>
 				<array>
 					<dict>
+						<key>UUID</key>
+						<integer>8</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -482,6 +515,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string>groundDown</string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -509,6 +548,27 @@
 								<array>
 									<real>458.33651733398438</real>
 									<real>48.394016265869141</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>42.356441497802734</real>
+										<real>49.645576477050781</real>
+									</array>
+									<array>
+										<real>42.890815734863281</real>
+										<real>36.649009704589844</real>
+									</array>
+									<array>
+										<real>460.2462158203125</real>
+										<real>35.895259857177734</real>
+									</array>
+									<array>
+										<real>458.33651733398438</real>
+										<real>48.394016265869141</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -587,6 +647,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>9</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -607,6 +669,12 @@
 							<false/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string>groundDown</string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -634,6 +702,27 @@
 								<array>
 									<real>42.359771728515625</real>
 									<real>48.529014587402344</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>41.794460296630859</real>
+										<real>36.845882415771484</real>
+									</array>
+									<array>
+										<real>459.22860717773438</real>
+										<real>35.909324645996094</real>
+									</array>
+									<array>
+										<real>459.47891235351562</real>
+										<real>48.596515655517578</real>
+									</array>
+									<array>
+										<real>42.359771728515625</real>
+										<real>48.529014587402344</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -712,6 +801,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>10</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -732,6 +823,12 @@
 							<false/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string>groundDown</string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -761,6 +858,27 @@
 									<real>39.220890045166016</real>
 								</array>
 							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>52.826908111572266</real>
+										<real>26.722135543823242</real>
+									</array>
+									<array>
+										<real>448.19647216796875</real>
+										<real>26.55706787109375</real>
+									</array>
+									<array>
+										<real>446.88424682617188</real>
+										<real>39.673084259033203</real>
+									</array>
+									<array>
+										<real>54.331596374511719</real>
+										<real>39.220890045166016</real>
+									</array>
+								</array>
+							</array>
 						</dict>
 						<key>properties</key>
 						<array>
@@ -780,7 +898,7 @@
 								<key>value</key>
 								<array>
 									<real>543.55596923828125</real>
-									<real>56</real>
+									<real>58</real>
 									<integer>0</integer>
 									<integer>0</integer>
 									<integer>0</integer>
@@ -839,6 +957,8 @@
 						<true/>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>11</integer>
 						<key>baseClass</key>
 						<string>CCNode</string>
 						<key>children</key>
@@ -859,6 +979,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -886,6 +1012,27 @@
 								<array>
 									<real>670.220703125</real>
 									<real>-1.9886941909790039</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-23.005878448486328</real>
+										<real>0.7336840033531189</real>
+									</array>
+									<array>
+										<real>-21.626016616821289</real>
+										<real>-13.543045997619629</real>
+									</array>
+									<array>
+										<real>667.42132568359375</real>
+										<real>-16.888290405273438</real>
+									</array>
+									<array>
+										<real>670.220703125</real>
+										<real>-1.9886941909790039</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -953,6 +1100,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>12</integer>
 						<key>baseClass</key>
 						<string>CCBFile</string>
 						<key>children</key>
@@ -973,6 +1122,12 @@
 							<false/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1000,6 +1155,27 @@
 								<array>
 									<real>-136.92935180664062</real>
 									<real>81.873649597167969</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-137.51542663574219</real>
+										<real>-152.64396667480469</real>
+									</array>
+									<array>
+										<real>163.13404846191406</real>
+										<real>-153.86320495605469</real>
+									</array>
+									<array>
+										<real>161.79444885253906</real>
+										<real>83.62139892578125</real>
+									</array>
+									<array>
+										<real>-136.92935180664062</real>
+										<real>81.873649597167969</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1051,6 +1227,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>13</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -1138,6 +1316,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>14</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -1225,6 +1405,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>15</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -1245,6 +1427,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1272,6 +1460,27 @@
 								<array>
 									<real>-0.050647079944610596</real>
 									<real>45.425960540771484</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-0.056715983897447586</real>
+										<real>-0.17360065877437592</real>
+									</array>
+									<array>
+										<real>487.80694580078125</real>
+										<real>1.3294714689254761</real>
+									</array>
+									<array>
+										<real>487.07809448242188</real>
+										<real>43.718109130859375</real>
+									</array>
+									<array>
+										<real>-0.050647079944610596</real>
+										<real>45.425960540771484</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1350,6 +1559,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>16</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -1370,6 +1581,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1397,6 +1614,27 @@
 								<array>
 									<real>510.1240234375</real>
 									<real>47.437122344970703</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-3.7004549503326416</real>
+										<real>44.974514007568359</real>
+									</array>
+									<array>
+										<real>-3.5657706260681152</real>
+										<real>-0.11092180758714676</real>
+									</array>
+									<array>
+										<real>510.51025390625</real>
+										<real>0.88406211137771606</real>
+									</array>
+									<array>
+										<real>510.1240234375</real>
+										<real>47.437122344970703</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1486,6 +1724,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>17</integer>
 						<key>baseClass</key>
 						<string>CCNode</string>
 						<key>children</key>
@@ -1506,6 +1746,12 @@
 							<true/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1533,6 +1779,27 @@
 								<array>
 									<real>-42.770084381103516</real>
 									<real>405.91375732421875</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-44.588977813720703</real>
+										<real>-4.1442017555236816</real>
+									</array>
+									<array>
+										<real>-10.996621131896973</real>
+										<real>-5.9357929229736328</real>
+									</array>
+									<array>
+										<real>-5.5448665618896484</real>
+										<real>403.302734375</real>
+									</array>
+									<array>
+										<real>-42.770084381103516</real>
+										<real>405.91375732421875</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1600,6 +1867,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>18</integer>
 						<key>baseClass</key>
 						<string>CCBFile</string>
 						<key>children</key>
@@ -1620,6 +1889,12 @@
 							<false/>
 							<key>bodyShape</key>
 							<integer>0</integer>
+							<key>collisionCategories</key>
+							<array/>
+							<key>collisionMask</key>
+							<array/>
+							<key>collisionType</key>
+							<string></string>
 							<key>cornerRadius</key>
 							<real>0.0</real>
 							<key>density</key>
@@ -1647,6 +1922,27 @@
 								<array>
 									<real>121.20052337646484</real>
 									<real>187.39608764648438</real>
+								</array>
+							</array>
+							<key>polygons</key>
+							<array>
+								<array>
+									<array>
+										<real>-134.79327392578125</real>
+										<real>173.11982727050781</real>
+									</array>
+									<array>
+										<real>-129.15702819824219</real>
+										<real>-201.97773742675781</real>
+									</array>
+									<array>
+										<real>179.45289611816406</real>
+										<real>-171.906494140625</real>
+									</array>
+									<array>
+										<real>121.20052337646484</real>
+										<real>187.39608764648438</real>
+									</array>
 								</array>
 							</array>
 						</dict>
@@ -1789,11 +2085,15 @@
 				</array>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>19</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
 				<array>
 					<dict>
+						<key>UUID</key>
+						<integer>20</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -1805,7 +2105,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -1881,6 +2181,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>21</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -2099,6 +2401,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>22</integer>
 						<key>baseClass</key>
 						<string>CCParticleSystem</string>
 						<key>children</key>
@@ -2110,7 +2414,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -2384,6 +2688,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>23</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -2395,7 +2701,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -2471,6 +2777,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>24</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -2697,6 +3005,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>25</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -2708,7 +3018,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -2784,6 +3094,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>26</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -3010,6 +3322,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>27</integer>
 						<key>baseClass</key>
 						<string>CCParticleSystem</string>
 						<key>children</key>
@@ -3021,7 +3335,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -3295,6 +3609,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>28</integer>
 						<key>baseClass</key>
 						<string>CCSprite</string>
 						<key>children</key>
@@ -3306,7 +3622,7 @@
 						<key>memberVarAssignmentName</key>
 						<string></string>
 						<key>memberVarAssignmentType</key>
-						<integer>0</integer>
+						<integer>1</integer>
 						<key>properties</key>
 						<array>
 							<dict>
@@ -3382,6 +3698,8 @@
 						</array>
 					</dict>
 					<dict>
+						<key>UUID</key>
+						<integer>29</integer>
 						<key>baseClass</key>
 						<string>CCLabelTTF</string>
 						<key>children</key>
@@ -3615,7 +3933,7 @@
 				<key>memberVarAssignmentName</key>
 				<string></string>
 				<key>memberVarAssignmentType</key>
-				<integer>0</integer>
+				<integer>1</integer>
 				<key>properties</key>
 				<array>
 					<dict>
@@ -3710,6 +4028,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>30</integer>
 				<key>baseClass</key>
 				<string>CCButton</string>
 				<key>children</key>
@@ -3928,6 +4248,22 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>horizontalAlignment</string>
+						<key>type</key>
+						<string>IntegerLabeled</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>verticalAlignment</string>
+						<key>type</key>
+						<string>IntegerLabeled</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>horizontalPadding</string>
 						<key>type</key>
 						<string>FloatScale</string>
@@ -4026,6 +4362,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>31</integer>
 				<key>baseClass</key>
 				<string>CCSprite</string>
 				<key>children</key>
@@ -4121,6 +4459,8 @@
 				</array>
 			</dict>
 			<dict>
+				<key>UUID</key>
+				<integer>32</integer>
 				<key>baseClass</key>
 				<string>CCButton</string>
 				<key>children</key>
@@ -4339,6 +4679,22 @@
 					</dict>
 					<dict>
 						<key>name</key>
+						<string>horizontalAlignment</string>
+						<key>type</key>
+						<string>IntegerLabeled</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>name</key>
+						<string>verticalAlignment</string>
+						<key>type</key>
+						<string>IntegerLabeled</string>
+						<key>value</key>
+						<integer>1</integer>
+					</dict>
+					<dict>
+						<key>name</key>
 						<string>horizontalPadding</string>
 						<key>type</key>
 						<string>FloatScale</string>
@@ -4444,7 +4800,7 @@
 		<key>memberVarAssignmentName</key>
 		<string></string>
 		<key>memberVarAssignmentType</key>
-		<integer>0</integer>
+		<integer>1</integer>
 		<key>properties</key>
 		<array>
 			<dict>
@@ -4548,7 +4904,7 @@
 			<key>offset</key>
 			<real>0.0</real>
 			<key>position</key>
-			<real>0.033333335071802139</real>
+			<real>0.0</real>
 			<key>resolution</key>
 			<real>30</real>
 			<key>scale</key>
@@ -4568,5 +4924,7 @@
 	</array>
 	<key>stageBorder</key>
 	<integer>3</integer>
+	<key>stageColor</key>
+	<integer>0</integer>
 </dict>
 </plist>
