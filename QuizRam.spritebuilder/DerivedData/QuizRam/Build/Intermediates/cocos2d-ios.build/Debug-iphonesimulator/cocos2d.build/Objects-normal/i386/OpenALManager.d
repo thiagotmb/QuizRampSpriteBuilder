@@ -1,0 +1,21 @@
+dependencies: \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/OpenALManager.m \
+  external/ObjectAL/OpenAL/OpenALManager.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/SynthesizeSingleton.h \
+  external/ObjectAL/OpenAL/ALContext.h \
+  external/ObjectAL/OpenAL/ALListener.h \
+  external/ObjectAL/OpenAL/ALTypes.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALSuspendHandler.h \
+  external/ObjectAL/OpenAL/ALSource.h \
+  external/ObjectAL/OpenAL/ALSoundSource.h \
+  external/ObjectAL/OpenAL/ALBuffer.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALAction.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/ObjectALConfig.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/NSMutableArray+WeakReferences.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/ObjectALMacros.h \
+  external/ObjectAL/Support/OALTools.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/ARCSafe_MemMgmt.h \
+  external/ObjectAL/OpenAL/ALWrapper.h \
+  external/ObjectAL/OpenAL/ALDevice.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALAudioSession.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/OALAudioFile.h

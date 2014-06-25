@@ -97,6 +97,39 @@
 			<key>scaleFrom</key>
 			<integer>4</integer>
 		</dict>
+		<key>Sounds/Jump.wav</key>
+		<dict>
+			<key>format_android_sound</key>
+			<integer>0</integer>
+			<key>format_android_sound_quality</key>
+			<integer>0</integer>
+			<key>format_ios_sound</key>
+			<integer>0</integer>
+			<key>format_ios_sound_quality</key>
+			<integer>0</integer>
+		</dict>
+		<key>Sounds/ShowQuiz.wav</key>
+		<dict>
+			<key>format_android_sound</key>
+			<integer>0</integer>
+			<key>format_android_sound_quality</key>
+			<integer>0</integer>
+			<key>format_ios_sound</key>
+			<integer>0</integer>
+			<key>format_ios_sound_quality</key>
+			<integer>0</integer>
+		</dict>
+		<key>Sounds/footStep.wav</key>
+		<dict>
+			<key>format_android_sound</key>
+			<integer>0</integer>
+			<key>format_android_sound_quality</key>
+			<integer>0</integer>
+			<key>format_ios_sound</key>
+			<integer>1</integer>
+			<key>format_ios_sound_quality</key>
+			<integer>4</integer>
+		</dict>
 		<key>Sprites</key>
 		<dict/>
 		<key>ccbResources</key>

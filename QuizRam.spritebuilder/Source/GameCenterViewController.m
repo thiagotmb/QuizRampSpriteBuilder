@@ -207,7 +207,7 @@
     //EVERTON
     GKScore *survivalScore =[[GKScore alloc]initWithLeaderboardIdentifier:@"SurvivalTime"];
     survivalScore.value=_gameData.lastScoreSurvivalTime;
-    NSLog(@" ultimo score %u",_gameData.lastScoreSurvivalTime);
+    
 
     
     GKScore *capturedBooks =[[GKScore alloc]initWithLeaderboardIdentifier:@"CapturedBooks"];

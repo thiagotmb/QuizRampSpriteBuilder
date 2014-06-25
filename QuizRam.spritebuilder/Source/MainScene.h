@@ -45,6 +45,8 @@
 @property (nonatomic) BOOL bootReadyToReload;
 @property (nonatomic) CCSprite *bootTimerSprite;
 @property (nonatomic) CCProgressNode *bootTimerProgressBar;
+@property (nonatomic) CCNode *runParticle;
+
 
 @property (nonatomic) CCNode* lamp2;
 @property (nonatomic) CCNode* lamp1;

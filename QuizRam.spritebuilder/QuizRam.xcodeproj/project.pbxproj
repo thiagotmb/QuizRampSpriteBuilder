@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		0A041CB4194A84D100F753E3 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A041CB3194A84D100F753E3 /* GameOverScene.m */; };
 		0A041CB9194B29D300F753E3 /* GameCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A041CB7194B29D300F753E3 /* GameCenterViewController.m */; };
+		0A37B44E195B31C0003DA970 /* SoundConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A37B44D195B31C0003DA970 /* SoundConfig.m */; };
 		0A4146B6193D652800A03BFE /* MainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = B7378993180767190076A88C /* MainScene.m */; };
 		0A5F40021948C41E002F39AA /* GameData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A5F40011948C41E002F39AA /* GameData.m */; };
 		0A67129B1949DF120099DA4D /* Questoes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0A67129A1949DF120099DA4D /* Questoes.plist */; };
@@ -78,6 +79,8 @@
 		0A041CB3194A84D100F753E3 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverScene.m; path = Source/GameOverScene.m; sourceTree = "<group>"; };
 		0A041CB6194B29D300F753E3 /* GameCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameCenterViewController.h; path = Source/GameCenterViewController.h; sourceTree = "<group>"; };
 		0A041CB7194B29D300F753E3 /* GameCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameCenterViewController.m; path = Source/GameCenterViewController.m; sourceTree = "<group>"; };
+		0A37B44C195B31C0003DA970 /* SoundConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundConfig.h; path = Source/SoundConfig.h; sourceTree = "<group>"; };
+		0A37B44D195B31C0003DA970 /* SoundConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundConfig.m; path = Source/SoundConfig.m; sourceTree = "<group>"; };
 		0A5F40001948C41E002F39AA /* GameData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameData.h; path = Source/GameData.h; sourceTree = "<group>"; };
 		0A5F40011948C41E002F39AA /* GameData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameData.m; path = Source/GameData.m; sourceTree = "<group>"; };
 		0A67129A1949DF120099DA4D /* Questoes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Questoes.plist; path = Source/Questoes.plist; sourceTree = "<group>"; };
@@ -196,6 +199,8 @@
 				0A5F40011948C41E002F39AA /* GameData.m */,
 				0A8697FF1947D0E90054181F /* MenuScene.h */,
 				0A8698001947D0E90054181F /* MenuScene.m */,
+				0A37B44C195B31C0003DA970 /* SoundConfig.h */,
+				0A37B44D195B31C0003DA970 /* SoundConfig.m */,
 				0AF311E9194CEAA30072646D /* RankingScene.h */,
 				0AF311EA194CEAA30072646D /* RankingScene.m */,
 				0A041CB6194B29D300F753E3 /* GameCenterViewController.h */,
@@ -455,6 +460,7 @@
 				0A5F40021948C41E002F39AA /* GameData.m in Sources */,
 				0A041CB4194A84D100F753E3 /* GameOverScene.m in Sources */,
 				0A8698051947EBE30054181F /* QuizScene.m in Sources */,
+				0A37B44E195B31C0003DA970 /* SoundConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

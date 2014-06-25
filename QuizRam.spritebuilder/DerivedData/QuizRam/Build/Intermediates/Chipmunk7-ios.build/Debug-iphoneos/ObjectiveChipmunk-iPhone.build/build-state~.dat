@@ -1,0 +1,210 @@
+TObjectiveChipmunk-iPhone
+v7
+r1
+cCheck dependencies
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkBody.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkConstraint.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkMultiGrab.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkShape.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkSpace.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/chipmunk.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpArbiter.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpArray.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpBBTree.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpBody.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpCollision.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpConstraint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpDampedRotarySpring.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpDampedSpring.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpGearJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpGrooveJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpHashSet.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPinJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPivotJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPolyShape.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpRatchetJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpRotaryLimitJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpShape.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSimpleMotor.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSlideJoint.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpace.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceComponent.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceDebug.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceHash.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceQuery.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceStep.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpatialIndex.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSweep1D.c
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies9bca120c365bb941^e9b7a70c365bb941^---0#1#1#--18"Check dependencies36"571A1340-AD07-482F-A79B-043E1EEACB17-
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/ChipmunkBody.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkBody.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/ChipmunkConstraint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkConstraint.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/ChipmunkMultiGrab.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkMultiGrab.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/ChipmunkShape.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkShape.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/ChipmunkSpace.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/objectivec/src/ChipmunkSpace.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/chipmunk.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/chipmunk.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpArbiter.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpArbiter.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpArray.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpArray.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpBBTree.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpBBTree.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpBody.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpBody.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpCollision.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpCollision.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpConstraint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpConstraint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpDampedRotarySpring.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpDampedRotarySpring.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpDampedSpring.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpDampedSpring.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpGearJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpGearJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpGrooveJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpGrooveJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpHashSet.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpHashSet.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpPinJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPinJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpPivotJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPivotJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpPolyShape.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpPolyShape.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpRatchetJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpRatchetJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpRotaryLimitJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpRotaryLimitJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpShape.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpShape.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSimpleMotor.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSimpleMotor.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSlideJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSlideJoint.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpace.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpace.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpaceComponent.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceComponent.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpaceDebug.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceDebug.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpaceHash.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceHash.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpaceQuery.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceQuery.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpaceStep.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpaceStep.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSpatialIndex.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSpatialIndex.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/Chipmunk7-ios.build/Debug-iphoneos/ObjectiveChipmunk-iPhone.build/Objects-normal/arm64/cpSweep1D.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpSweep1D.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/libObjectiveChipmunk-iPhone.a normal arm64
+r0
+

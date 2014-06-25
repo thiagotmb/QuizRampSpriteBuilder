@@ -1,0 +1,153 @@
+TQuizRam
+v7
+r1
+cCheck dependencies
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/AppDelegate.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/CCParallaxNode-Extras.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameCenterViewController.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameData.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameOverScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/MainScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/MenuScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/QuizScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/RankingScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/SoundConfig.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/main.m
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies6b2be60c365bb941^4b02e80c365bb941^---0#1#1#--18"Check dependencies36"3E1CD9C1-F4BA-436D-9201-F7F6C47992A7-
+
+CCodeSign /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/AppDelegate.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/AppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/CCParallaxNode-Extras.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/CCParallaxNode-Extras.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/GameCenterViewController.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameCenterViewController.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/GameData.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameData.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/GameOverScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/GameOverScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/MainScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/MainScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/MenuScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/MenuScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/QuizScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/QuizScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/RankingScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/RankingScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/SoundConfig.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/SoundConfig.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/Objects-normal/arm64/main.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Default-568h@2x.png Source/Resources/Default-568h@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Default-Landscape~ipad.png Source/Resources/Default-Landscape~ipad.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Default.png Source/Resources/Default.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Default@2x.png Source/Resources/Default@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Settings.png Source/Resources/Icons/Settings.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Settings@2x.png Source/Resources/Icons/Settings@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPad-old.png Source/Resources/Icons/iPad-old.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPad-old@2x.png Source/Resources/Icons/iPad-old@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPad.png Source/Resources/Icons/iPad.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPad@2x.png Source/Resources/Icons/iPad@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPhone-old.png Source/Resources/Icons/iPhone-old.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPhone-old@2x.png Source/Resources/Icons/iPhone-old@2x.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPhone.png Source/Resources/Icons/iPhone.png
+r0
+
+CCopyPNGFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/iPhone@2x.png Source/Resources/Icons/iPhone@2x.png
+r0
+
+CCopyPlistFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Questoes.plist Source/Questoes.plist
+r0
+
+CCpResource /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/ResourceRules.plist DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/ResourceRules.plist
+r0
+
+CCpResource Source/Resources/Published-iOS DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Published-iOS
+r0
+
+CGenerateDSYMFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app.dSYM /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/QuizRam
+r0
+
+CLd /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/QuizRam normal arm64
+r0
+
+CProcessInfoPlistFile /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/Info.plist /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/Resources/Info.plist
+r0
+
+CProcessPCH /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/PrecompiledHeaders/Prefix-gypmhmlpidaodqfhmrhebcjetzcb/Prefix.pch.pch Source/Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Index/PrecompiledHeaders/Prefix-aktkuqklflihhgdnfcclalfmccru_ast/Prefix.pch.pch Source/Prefix.pch normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessProductPackaging /Applications/Xcode6-Beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.0.sdk/Entitlements.plist /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/QuizRam.build/Debug-iphoneos/QuizRam.build/QuizRam.app.xcent
+r0
+
+CProcessProductPackaging /Users/thiagoTMB/Library/MobileDevice/Provisioning\ Profiles/954112A8-9468-422F-B9AF-34E130F7E36A.mobileprovision /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app/embedded.mobileprovision
+r0
+
+CTouch /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/QuizRam.app
+r0
+

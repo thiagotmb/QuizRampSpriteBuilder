@@ -43,17 +43,19 @@ static const unsigned int gravityTimeMax = 100;
 
 -(void)update:(CCTime)delta {
     
-
-    [self updateScene:delta];
+    if(!_gameOver){
+        [self updateScene:delta];
         
-    [self updateGround];
+        [self updateGround];
 
-    [self updateQuestionBook];
+        [self updateQuestionBook];
+        
+    }
 
 }
 -(void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
-    
-    [self heroJump];
+    if(!_gameOver)
+        [self heroJump];
     
 }
 
@@ -175,6 +177,9 @@ static const unsigned int gravityTimeMax = 100;
     _hero.physicsBody.collisionType = @"hero";
     _hero.zOrder = DrawingOrdeHero;
     _jumpVelocityY = 200.0f;
+    
+
+    _runParticle.visible =NO;
     
     _gravityTimer = 0;
 
@@ -339,6 +344,7 @@ static const unsigned int gravityTimeMax = 100;
 -(void)updateHero:(CCTime)delta{
     
     _hero.position = ccp(_hero.position.x + delta * _gameData.scrollSceneSpeed, _hero.position.y);
+
     
 
     //update BOOT LIFE
@@ -438,6 +444,8 @@ static const unsigned int gravityTimeMax = 100;
     
     _quiz = [QuizScene alloc];
     _quiz.quizScene = [CCBReader loadAsScene:@"QuizScene"];
+    [[OALSimpleAudio sharedInstance] playBg:@"Sounds/ShowQuiz.wav" loop:NO];
+
     [[CCDirector sharedDirector] pause];
     [self addChild:_quiz.quizScene];
     
@@ -532,6 +540,10 @@ static const unsigned int gravityTimeMax = 100;
 -(void)gameEnds{
     if(!_gameOver){
 
+        [_heroAnimation setPaused:YES];
+        [_hero stopAllActions];
+        [_physicsNode stopAllActions];
+        [self stopAllActions];
         _gameData.scrollSceneSpeed = 0;
         _gameOver = YES;
         
@@ -540,10 +552,7 @@ static const unsigned int gravityTimeMax = 100;
         
         _gameData.lastScoreSurvivalTime = _timeInGame;
         
-        [self heroRotate];
-        [_hero stopAllActions];
-        [_physicsNode stopAllActions];
-        [self stopAllActions];
+
         [self addChild:[CCBReader loadAsScene:@"GameOverScene"]];
         
         

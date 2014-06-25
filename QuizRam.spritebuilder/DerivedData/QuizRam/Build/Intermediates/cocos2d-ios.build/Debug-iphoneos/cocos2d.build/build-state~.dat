@@ -1,0 +1,756 @@
+Tcocos2d
+v7
+r1
+cCheck dependencies
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCAnimationManager+FrameAnimation.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCAnimationManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBAnimationManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBKeyframe.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBLocalizationManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBReader.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBSequenceProperty.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBsequence.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCButton.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCControl.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCControlTextureFactory.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCScrollView.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCSlider.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCTableView.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCTextField.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAction.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionCatmullRom.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionEase.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionInstant.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionInterval.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionProgressTimer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionTween.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAnimation.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAnimationCache.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCCache.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCClippingNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCConfiguration.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCDirector.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCDrawNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffect.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectBrightness.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectContrast.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectGaussianBlur.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectGlow.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectPixellate.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectRenderer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectSaturation.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectStack.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLabelBMFont.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLabelTTF.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLayout.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLayoutBox.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCMotionStreak.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNode+Debug.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNodeColor.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParallaxNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleBatchNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleExamples.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleSystem.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleSystemBase.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsBody.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsJoint.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsShape.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCProgressNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCRenderTexture.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCRenderer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCResponder.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCResponderManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCScene.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCScheduler.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCShader.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSprite.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSprite9Slice.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteBatchNode.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteFrame.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteFrameCache.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTMXXMLParser.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTexture.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTextureCache.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTexturePVR.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMap.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMapLayer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMapObjectGroup.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTransition.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCDirectorMac.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCGLView.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCWindow.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCAppDelegate.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCDirectorIOS.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCES2Renderer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCGLView.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/UITouch+CC.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCColor.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCFileUtils.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCProfiling.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CGPointExtension.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/NSAttributedString+CCAdditions.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/NSThread+performBlock.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/TGAlib.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/ZipUtils.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/base64.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/ccUtils.c
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/ccFPSImages.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/cocos2d.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALAction.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALActionManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALAudioActions.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALUtilityActions.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTrack.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTrackNotifications.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTracks.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OALSimpleAudio.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALBuffer.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALCaptureDevice.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALChannelSource.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALContext.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALDevice.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALListener.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALSoundSourcePool.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALSource.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALWrapper.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/OpenALManager.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALAudioSession.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALSuspendHandler.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/IOSVersion.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/NSMutableArray+WeakReferences.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/NSMutableDictionary+WeakReferences.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/OALAudioFile.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/OALTools.m
+r0
+
+CBuild AST from /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/mach_timing.c
+r0
+
+CCheck dependencies
+r0
+lSLF07#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependenciesb01da80c365bb941^ec4ce50c365bb941^---0#1#1#--18"Check dependencies36"9E7BB961-EAFD-4F42-A5F4-1DA4E3794AB9-
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALBuffer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALBuffer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALCaptureDevice.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALCaptureDevice.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALChannelSource.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALChannelSource.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALContext.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALContext.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALDevice.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALDevice.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALListener.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALListener.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALSoundSourcePool.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALSoundSourcePool.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALSource.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALSource.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ALWrapper.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/ALWrapper.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAction.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAction.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionCatmullRom.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionCatmullRom.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionEase.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionEase.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionInstant.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionInstant.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionInterval.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionInterval.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionProgressTimer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionProgressTimer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCActionTween.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCActionTween.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAnimation.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAnimation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAnimationCache.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCAnimationCache.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAnimationManager+FrameAnimation.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCAnimationManager+FrameAnimation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAnimationManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCAnimationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCAppDelegate.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCAppDelegate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBAnimationManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBAnimationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBKeyframe.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBKeyframe.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBLocalizationManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBLocalizationManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBReader.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBReader.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBSequenceProperty.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBSequenceProperty.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCBsequence.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCBReader/CCBsequence.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCButton.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCButton.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCCache.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCCache.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCClippingNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCClippingNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCColor.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCColor.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCConfiguration.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCConfiguration.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCControl.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCControl.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCControlTextureFactory.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCControlTextureFactory.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCDirector.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCDirector.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCDirectorIOS.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCDirectorIOS.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCDirectorMac.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCDirectorMac.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCDrawNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCDrawNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCES2Renderer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCES2Renderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffect.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffect.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectBrightness.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectBrightness.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectContrast.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectContrast.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectGaussianBlur.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectGaussianBlur.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectGlow.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectGlow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectPixellate.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectPixellate.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectRenderer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectSaturation.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectSaturation.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCEffectStack.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCEffectStack.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCFileUtils.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCFileUtils.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCGLView-6178916395723F7C.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/CCGLView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCGLView-68A4E9D1F611E16E.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCGLView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCLabelBMFont.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLabelBMFont.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCLabelTTF.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLabelTTF.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCLayout.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLayout.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCLayoutBox.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCLayoutBox.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCMotionStreak.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCMotionStreak.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCNode+Debug.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNode+Debug.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCNodeColor.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCNodeColor.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCParallaxNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParallaxNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCParticleBatchNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleBatchNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCParticleExamples.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleExamples.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCParticleSystem.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleSystem.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCParticleSystemBase.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCParticleSystemBase.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCPhysicsBody.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsBody.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCPhysicsJoint.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsJoint.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCPhysicsNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCPhysicsShape.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCPhysicsShape.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCProfiling.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CCProfiling.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCProgressNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCProgressNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCRenderTexture.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCRenderTexture.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCRenderer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCRenderer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCResponder.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCResponder.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCResponderManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCResponderManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCScene.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCScene.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCScheduler.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCScheduler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCScrollView.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCScrollView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCShader.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCShader.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSlider.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCSlider.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSprite.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSprite.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSprite9Slice.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSprite9Slice.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSpriteBatchNode.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteBatchNode.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSpriteFrame.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteFrame.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCSpriteFrameCache.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCSpriteFrameCache.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTMXXMLParser.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTMXXMLParser.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTableView.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCTableView.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTextField.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d-ui/CCTextField.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTexture.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTexture.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTextureCache.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTextureCache.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTexturePVR.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTexturePVR.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTiledMap.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMap.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTiledMapLayer.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMapLayer.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTiledMapObjectGroup.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTiledMapObjectGroup.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCTransition.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/CCTransition.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CCWindow.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/Mac/CCWindow.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/CGPointExtension.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/CGPointExtension.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/IOSVersion.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/IOSVersion.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/NSAttributedString+CCAdditions.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/NSAttributedString+CCAdditions.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/NSMutableArray+WeakReferences.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/NSMutableArray+WeakReferences.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/NSMutableDictionary+WeakReferences.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/NSMutableDictionary+WeakReferences.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/NSThread+performBlock.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/NSThread+performBlock.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAction.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALAction.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALActionManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALActionManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioActions.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALAudioActions.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioFile.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/OALAudioFile.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioSession.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALAudioSession.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioTrack.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTrack.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioTrackNotifications.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTrackNotifications.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALAudioTracks.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/AudioTrack/OALAudioTracks.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALSimpleAudio.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OALSimpleAudio.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALSuspendHandler.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Session/OALSuspendHandler.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALTools.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/OALTools.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OALUtilityActions.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Actions/OALUtilityActions.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/OpenALManager.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/OpenAL/OpenALManager.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/TGAlib.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/TGAlib.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/UITouch+CC.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Platforms/iOS/UITouch+CC.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ZipUtils.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/ZipUtils.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/base64.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/base64.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ccFPSImages.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/ccFPSImages.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/ccUtils.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/Support/ccUtils.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/cocos2d.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/cocos2d/cocos2d.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CCompileC /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Intermediates/cocos2d-ios.build/Debug-iphoneos/cocos2d.build/Objects-normal/arm64/mach_timing.o /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/ObjectAL/Support/mach_timing.c normal arm64 c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CLibtool /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/DerivedData/QuizRam/Build/Products/Debug-iphoneos/libcocos2d.a normal arm64
+r0
+

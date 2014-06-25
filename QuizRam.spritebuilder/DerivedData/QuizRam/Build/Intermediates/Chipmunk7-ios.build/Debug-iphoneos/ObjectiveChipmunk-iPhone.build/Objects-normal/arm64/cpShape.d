@@ -1,0 +1,26 @@
+dependencies: \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/src/cpShape.c \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/chipmunk_private.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/chipmunk.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/chipmunk_types.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpVect.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpBB.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpTransform.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpSpatialIndex.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpBody.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpShape.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpPolyShape.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpArbiter.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpConstraint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpPinJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpSlideJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpPivotJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpGrooveJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpDampedSpring.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpDampedRotarySpring.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpRotaryLimitJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpRatchetJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpGearJoint.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpSimpleMotor.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/cpSpace.h \
+  /Users/thiagoTMB/Documents/Repositories/BEPiD/QuizRampSpriteBuilder/QuizRam.spritebuilder/Source/libs/cocos2d-iphone/external/Chipmunk/include/chipmunk/chipmunk_unsafe.h

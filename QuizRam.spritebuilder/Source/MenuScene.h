@@ -14,6 +14,7 @@
 @property (nonatomic) CCButton* play;
 @property (nonatomic) CCButton* tutorial;
 @property (nonatomic) CCButton* ranking;
+@property (nonatomic) CCNode *soundConfig;
 
 -(void)playGame;
 -(void)playTutorial;
